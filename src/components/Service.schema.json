@@ -1,0 +1,119 @@
+{
+  "services": {
+    "value": [
+      {
+        "serviceBlurb": "Home & Office Cleaning Services",
+        "serviceSlug": "Experience a cleaner home and office with our professional services.",
+        "serviceText": "We provide top-notch home and office cleaning services, ensuring a spotless and comfortable environment for you and your family or employees. Our experienced team uses high-quality cleaning products and equipment to deliver exceptional results.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
+        "imageAlt": "Home and office cleaning service",
+        "features": [
+          {
+            "name": "Residential Cleaning",
+            "description": "Our residential cleaning services cover all areas of your home, leaving it spotless and inviting for you and your family."
+          },
+          {
+            "name": "Commercial Cleaning",
+            "description": "We offer commercial cleaning services for offices, retail spaces, and other business establishments, ensuring a clean and professional environment."
+          },
+          {
+            "name": "Customized Cleaning Plans",
+            "description": "We work with you to create a customized cleaning plan that suits your needs and schedule, ensuring a consistently clean space."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Real Estate Cleaning",
+        "serviceSlug": "Boost your property's appeal with our expert real estate cleaning services.",
+        "serviceText": "We understand the importance of a clean property when it comes to selling or renting. Our real estate cleaning services are tailored to meet the needs of real estate agents, property managers, and homeowners, ensuring a spotless and presentable space for prospective buyers or tenants.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
+        "imageAlt": "Real estate cleaning service",
+        "features": [
+          {
+            "name": "Pre-Sale Cleaning",
+            "description": "We provide thorough pre-sale cleaning services to ensure your property looks its best for potential buyers, increasing its appeal and value."
+          },
+          {
+            "name": "Post-Construction Cleaning",
+            "description": "Our post-construction cleaning services remove dust, debris, and other construction-related messes, leaving your newly built or renovated property clean and ready for occupancy."
+          },
+          {
+            "name": "Move-In/Move-Out Cleaning",
+            "description": "We offer move-in and move-out cleaning services for property managers and homeowners, ensuring a clean and welcoming space for new tenants or a spotless property for the next owner."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Window Cleaning",
+        "serviceSlug": "Let the sunshine in with our professional window cleaning services.",
+        "serviceText": "Our window cleaning services ensure crystal-clear windows for your home or office. Our team uses specialized equipment and techniques to safely and effectively clean your windows, improving the overall appearance of your property and allowing natural light to brighten your space.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0988.jpg",
+        "imageAlt": "Window cleaning service",
+        "features": [
+          {
+            "name": "Residential Window Cleaning",
+            "description": "We provide residential window cleaning services that leave your home's windows sparkling clean, enhancing its curb appeal and allowing more natural light inside."
+          },
+          {
+            "name": "Commercial Window Cleaning",
+            "description": "Our commercial window cleaning services ensure a professional and polished appearance for your office or retail space, creating a welcoming environment for clients and employees."
+          },
+          {
+            "name": "Safety and Efficiency",
+            "description": "Our team prioritizes safety and efficiency in our window cleaning services, using the appropriate equipment and techniques to deliver exceptional results without compromising on safety."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Carpet Cleaning",
+        "serviceSlug": "Revitalize your carpets with our deep carpet cleaning services.",
+        "serviceText": "Our carpet cleaning services remove dirt, stains, and allergens from your carpets, leaving them looking and smelling fresh. We use professional-grade equipment and eco-friendly cleaning solutions to effectively clean your carpets without causing damage or leaving behind harmful residues.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1004.jpg",
+        "imageAlt": "Carpet cleaning service",
+        "features": [
+          {
+            "name": "Deep Cleaning",
+            "description": "Our deep carpet cleaning services penetrate the fibers of your carpet, removing dirt, stains, and allergens for a thorough and long-lasting clean."
+          },
+          {
+            "name": "Eco-Friendly Solutions",
+            "description": "We use eco-friendly cleaning solutions that are safe for your family, pets, and the environment, ensuring a clean and healthy space."
+          },
+          {
+            "name": "Quick Drying",
+            "description": "Our carpet cleaning methods allow for quick drying times, minimizing disruption to your home or office and ensuring your carpets are ready for use in no time."
+          }
+        ]
+      }
+    ],
+    "ai": true,
+    "instructions": "Write up to four services in a way that mimics the example schema",
+    "example": [
+      {
+        "serviceBlurb": "A short blurb about what the service is. Should be catchy and short.",
+        "serviceSlug": "A slightly longer description of the service, but no more than 1 sentence.",
+        "serviceText": "A more thorough description of the service. 1 paragraph.",
+        "imageUrl": "A url to an image that represents the service a 1:1 aspect ratio",
+        "imageAlt": "Alt text for the image. can be left blank",
+        "features": [
+          {
+            "name": "A 1st specific feature of the service",
+            "description": "A 1 paragraph description of the service"
+          },
+          {
+            "name": "A 2nd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          },
+          {
+            "name": "A 3rd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          }
+        ]
+      }
+    ]
+  },
+  "anchor": {
+    "value": "services",
+    "ai": false
+  }
+}

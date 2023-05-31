@@ -1,0 +1,26 @@
+{
+  "title": {
+    "value": "Experience Quality Cleaning Services",
+    "ai": true,
+    "instructions": "A short title that serves as a call to action"
+  },
+  "callToAction": {
+    "value": "Let Hutchison Maintenance take care of your home, office, or building cleaning needs. Contact us today!",
+    "ai": true,
+    "instructions": "Expand on the title and give more information about the call to action. Should be 1-2 sentences."
+  },
+  "image": {
+    "value": "https://image.shutterstock.com/image-photo/cleaning-team-group-four-multiracial-450w-1939394551.jpg",
+    "ai": true,
+    "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
+  },
+  "buttonText": {
+    "value": "Get a Free Estimate",
+    "ai": true,
+    "instructions": "A short call to action that will be displayed on the button."
+  },
+  "anchor": {
+    "value": "our-work",
+    "ai": false
+  }
+}

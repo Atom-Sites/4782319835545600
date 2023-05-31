@@ -1,0 +1,80 @@
+{
+  "headerText": {
+    "value": "Testimonials",
+    "ai": true,
+    "instructions": "Either Testimonials or Reviews"
+  },
+  "headerSubText": {
+    "value": "Read what our satisfied customers have to say about Hutchison Maintenance.",
+    "ai": true,
+    "instructions": "A short description of the section goes here. Should talk about what people are saying about the company."
+  },
+  "testimonials": {
+    "value": [
+      {
+        "body": "Excellent service and does an awesome job....very lucky to have them for our cleaning.",
+        "author": {
+          "name": "Lucien",
+          "source": "NiceJob",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Extremely professional. Did a great job and at a very reasonable rate. I highly recommend Hutchison Maintenance.",
+        "author": {
+          "name": "Heather Moise",
+          "source": "Google",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Great cleaning service, left my house shining before going up for sale.",
+        "author": {
+          "name": "Bronwyn Azar",
+          "source": "Google",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Brandi and her team are always fantastic to work with. They are efficient and still very meticulous.",
+        "author": {
+          "name": "Alisha Hordyk",
+          "source": "Google",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Tyler did my windows and they are gorgeous!  Great work! Great price!",
+        "author": {
+          "name": "Gaby Vandergiessen",
+          "source": "Facebook",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Tyler did my windows and they are gorgeous!  Great work! Great price!",
+        "author": {
+          "name": "Gaby Vandergiessen",
+          "source": "Facebook",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      }
+    ],
+    "ai": true,
+    "instructions": "Use available information to create 2-6 testimonials in the testimonials array. Use the provided icon for all authors",
+    "example": [
+      {
+        "body": "The body for the first testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
+        "author": {
+          "name": "Name of the first person",
+          "source": "Source of the review. For example, Google, Facebook, etc.",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      }
+    ]
+  },
+  "anchor": {
+    "value": "reviews",
+    "ai": false
+  }
+}

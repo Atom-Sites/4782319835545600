@@ -1,0 +1,50 @@
+{
+  "headerText": {
+    "value": "Why Choose Hutchison Maintenance?",
+    "ai": true,
+    "instructions": "The header for the USP section"
+  },
+  "uspDescription": {
+    "value": "Hutchison Maintenance is a trusted cleaning service provider in the Greater Sudbury Area, Ontario. With over 20 years of experience in home, office, and restoration cleaning, we have built a reputation for being reliable, trustworthy, and fair. Our team is detail-oriented and works hard to exceed our clients' expectations, ensuring that their needs are met and the price is fair.",
+    "ai": true,
+    "instructions": "A description of the USP section, about 4 or 5 sentences"
+  },
+  "features": {
+    "value": [
+      {
+        "name": "Experienced Professionals",
+        "description": "Our team has over 20 years of experience in various cleaning fields, ensuring that your home, office, or building is cleaned to the highest standards.",
+        "href": "#"
+      },
+      {
+        "name": "Trusted by Builders and Real Estate Agents",
+        "description": "We have built a strong reputation with builders and real estate agents for being reliable, trustworthy, and fair. Our clients trust us to deliver exceptional cleaning services at a fair price.",
+        "href": "#"
+      },
+      {
+        "name": "Personalized Service",
+        "description": "As an owner-operated business, we take pride in personally cleaning or inspecting every job. We treat your property as if it were our own, ensuring the highest level of care and attention to detail.",
+        "href": "#"
+      }
+    ],
+    "ai": true,
+    "instructions": "Write exactly three features in the provided format.",
+    "example": [
+      {
+        "name": "The name of the first feature",
+        "description": "A 3-4 sentence description of the first feature",
+        "href": "A link to additional information. If no link is available, leave as '#'"
+      },
+      {
+        "name": "The name of the second feature",
+        "description": "A 3-4 sentence description of the second feature",
+        "href": "A link to additional information. If no link is available, leave as '#'"
+      },
+      {
+        "name": "The name of the third feature",
+        "description": "A 3-4 sentence description of the third feature",
+        "href": "A link to additional information. If no link is available, leave as '#'"
+      }
+    ]
+  }
+}

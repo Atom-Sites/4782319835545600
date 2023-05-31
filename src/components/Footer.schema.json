@@ -1,0 +1,105 @@
+{
+  "logoImage": {
+    "value": "HUTCHISON MAINTENANCE",
+    "ai": true,
+    "instructions": "Text for company logo"
+  },
+  "logoImageAlt": {
+    "value": "Hutchison Maintenance Logo",
+    "ai": true,
+    "instructions": "Alt Text for the Logo"
+  },
+  "address": {
+    "value": "Greater Sudbury Area, Ontario",
+    "ai": true,
+    "instructions": "Company Address"
+  },
+  "phone": {
+    "value": "+17055617260",
+    "ai": true,
+    "instructions": "Company Phone Number"
+  },
+  "email": {
+    "value": "brandi@hutchisonmaintenance.ca",
+    "ai": true,
+    "instructions": "Company E-Mail Address"
+  },
+  "socials": {
+    "value": [
+      {
+        "name": "Facebook",
+        "href": "https://www.facebook.com/BrandiLynn81/"
+      },
+      {
+        "name": "Google",
+        "href": "https://maps.google.com/maps?cid=1120713897317206633"
+      }
+    ],
+    "ai": true,
+    "instructions": "Create socials if they exist. Use the format provided in the example.",
+    "example": [
+      {
+        "name": "Facebook",
+        "href": "#"
+      },
+      {
+        "name": "Twitter",
+        "href": "#"
+      },
+      {
+        "name": "Instagram",
+        "href": "#"
+      }
+    ]
+  },
+  "services": {
+    "value": [
+      {
+        "name": "Home & Office Cleaning Services",
+        "href": "#services"
+      },
+      {
+        "name": "Real Estate Cleaning",
+        "href": "#services"
+      },
+      {
+        "name": "Post Construction Cleaning",
+        "href": "#services"
+      },
+      {
+        "name": "Office Cleaning",
+        "href": "#services"
+      }
+    ],
+    "ai": true,
+    "instructions": "Provide links to service by their anchor tags if they are present. Follow the example provided.",
+    "example": [
+      {
+        "name": "service 1",
+        "href": "#"
+      },
+      {
+        "name": "service 2",
+        "href": "#"
+      },
+      {
+        "name": "service 3",
+        "href": "#"
+      }
+    ]
+  },
+  "review_href": {
+    "value": "#reviews",
+    "ai": true,
+    "instructions": "Internal Link to a testimonials or reviews section."
+  },
+  "contact_href": {
+    "value": "#contact",
+    "ai": true,
+    "instructions": "Internal Link to a Contacts Section"
+  },
+  "anchor": {
+    "value": "contact",
+    "ai": false
+  }
+}

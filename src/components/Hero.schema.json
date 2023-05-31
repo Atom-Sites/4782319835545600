@@ -1,0 +1,26 @@
+{
+  "headingText": {
+    "value": "Hutchison Maintenance - Your Cleaning Experts",
+    "ai": true,
+    "instructions": "The Heading Text of the page."
+  },
+  "descriptionText": {
+    "value": "Hutchison Maintenance offers a wide range of cleaning services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. With over 20 years of experience, we are dedicated to providing exceptional service at a fair price. Our team of trustworthy professionals is committed to exceeding your expectations and ensuring your space is spotless.",
+    "ai": true,
+    "instructions": "The description text of the hero page. Should be a 2 paragraph text."
+  },
+  "heroImageUrl": {
+    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+    "ai": true,
+    "instructions": "An url to a Hero image that will be displayed on the page with a 16:9 aspect ratio"
+  },
+  "heroImageAlt": {
+    "value": "Hutchison Maintenance team working on a cleaning project",
+    "ai": true,
+    "instructions": "Alt Text for the Hero Image. Should be a short description of the image."
+  },
+  "anchor": {
+    "value": "hero",
+    "ai": false
+  }
+}

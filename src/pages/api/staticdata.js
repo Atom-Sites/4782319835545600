@@ -4,7 +4,8 @@ import { promises as fs } from 'fs';
 export default async function handler(req, res) {
     const { filename, page } = req.query;
     // Find the absolute path of the json directory
-    const jsonDirectory = page ? path.join(process.cwd(), 'src/pages') : path.join(process.cwd(), 'src/components');
+    // const jsonDirectory = page ? path.join(process.cwd(), 'src/pages') : path.join(process.cwd(), 'src/components');
+    const jsonDirectory = path.join(process.cwd(), 'src/components');
 
     // Construct the file path using the filename parameter
     const filePath = path.join(jsonDirectory, `${filename}`);

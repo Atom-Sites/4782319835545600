@@ -1,11 +1,11 @@
 {
   "headingText": {
-    "value": "Hutchison Maintenance - Professional Cleaning Services",
+    "value": "Hutchison Maintenance - Your Trusted Cleaning Partner",
     "ai": true,
     "instructions": "The Heading Text of the page."
   },
   "descriptionText": {
-    "value": "Hutchison Maintenance offers a wide range of cleaning services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. With over 20 years of experience, we are dedicated to providing top-quality service at a fair price, ensuring customer satisfaction and exceeding expectations.",
+    "value": "Hutchison Maintenance is a professional cleaning service provider with over 20 years of experience in home, office, and restoration cleaning. We are dedicated to delivering top-notch cleaning services to the Greater Sudbury Area, Ontario, ensuring that our clients' needs are met with reliability, trustworthiness, and fair pricing.",
     "ai": true,
     "instructions": "The description text of the hero page. Should be a 2 paragraph text."
   },
@@ -15,7 +15,7 @@
     "instructions": "An url to a Hero image that will be displayed on the page with a 16:9 aspect ratio"
   },
   "heroImageAlt": {
-    "value": "Hutchison Maintenance cleaning services",
+    "value": "Hutchison Maintenance team providing cleaning services",
     "ai": true,
     "instructions": "Alt Text for the Hero Image. Should be a short description of the image."
   },

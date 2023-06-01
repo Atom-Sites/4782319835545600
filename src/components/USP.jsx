@@ -7,7 +7,7 @@ export default function USP() {
     const { data, error } = useSWR('/api/staticdata?filename=USP.schema.json', fetcher)
 
     if (error) return <div>failed to load</div>
-    if (!data) return <div>loading...</div>
+    if (!data) return <div></div>
 
     const { headerText, uspDescription, features } = extractValues(data);
 

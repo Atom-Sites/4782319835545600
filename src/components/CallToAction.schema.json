@@ -1,16 +1,16 @@
 {
   "title": {
-    "value": "Experience Top-Quality Cleaning Services",
+    "value": "Experience Quality Cleaning Services",
     "ai": true,
     "instructions": "A short title that serves as a call to action"
   },
   "callToAction": {
-    "value": "Hutchison Maintenance offers a wide range of cleaning services for homes, offices, and real estate properties. Trust our experienced team to deliver exceptional results.",
+    "value": "Hutchison Maintenance offers top-notch cleaning services for homes, offices, and more. Trust our experienced team to exceed your expectations.",
     "ai": true,
     "instructions": "Expand on the title and give more information about the call to action. Should be 1-2 sentences."
   },
   "image": {
-    "value": "https://image.shutterstock.com/image-photo/cleaning-team-group-four-multiracial-450w-1939394551.jpg",
+    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
     "ai": true,
     "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
   },

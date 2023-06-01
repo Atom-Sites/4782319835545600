@@ -29,7 +29,7 @@ export default function Example() {
   const { data: company_data, error: company_error } = useSWR('/api/staticdata?filename=company_id.json', fetcher);
 
   if (nav_error || service_error || company_error) return <div>failed to load</div>
-  if (!nav_data || !service_data || !company_data) return <div>loading...</div>
+  if (!nav_data || !service_data || !company_data) return <div></div>
   
   const { logoUrl, navLinks } = extractValues(nav_data)
   const services = service_data.services.value

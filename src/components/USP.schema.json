@@ -5,25 +5,25 @@
     "instructions": "The header for the USP section"
   },
   "uspDescription": {
-    "value": "Hutchison Maintenance is a trusted cleaning service provider in the Greater Sudbury Area, Ontario. With over 20 years of experience in various cleaning fields, we are committed to delivering exceptional results at a fair price. Our team of dedicated professionals ensures that your home, office, or building is cleaned as if it were our own.",
+    "value": "Hutchison Maintenance is a trusted cleaning service provider in the Greater Sudbury Area, Ontario. With over 20 years of experience in various cleaning fields, we are committed to delivering top-notch services at fair prices. Our team of professionals is reliable, detail-oriented, and dedicated to exceeding our clients' expectations.",
     "ai": true,
     "instructions": "A description of the USP section, about 4 or 5 sentences"
   },
   "features": {
     "value": [
       {
-        "name": "Reliable and Trustworthy",
-        "description": "We have built a strong reputation with builders and real estate agents for being reliable, trustworthy, and fair. Our clients trust us to deliver high-quality cleaning services without compromising on quality.",
-        "href": "#"
-      },
-      {
-        "name": "Personalized Service",
-        "description": "As an owner-operated business, we take pride in providing personalized service to our clients. We work closely with our team to ensure that every job is completed to the highest standards and meets our clients' expectations.",
-        "href": "#"
-      },
-      {
         "name": "Wide Range of Services",
-        "description": "We offer a variety of cleaning services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. Our comprehensive range of services ensures that we can cater to all your cleaning needs.",
+        "description": "We offer a variety of cleaning services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. Our expertise allows us to cater to different cleaning needs and ensure customer satisfaction.",
+        "href": "#"
+      },
+      {
+        "name": "Experienced and Trustworthy Team",
+        "description": "Our team consists of trustworthy and experienced professionals who are dedicated to providing high-quality cleaning services. We are insured, bonded, and WSIB compliant, ensuring peace of mind for our clients.",
+        "href": "#"
+      },
+      {
+        "name": "Excellent Customer Reviews",
+        "description": "We have built a strong reputation among builders and real estate agents for our reliability, trustworthiness, and fair pricing. Our satisfied clients' reviews speak for themselves, showcasing our commitment to delivering exceptional cleaning services.",
         "href": "#"
       }
     ],

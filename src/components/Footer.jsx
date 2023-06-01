@@ -35,7 +35,7 @@ export default function Example() {
     const { data: service_data, error: service_error } = useSWR('/api/staticdata?filename=Service.schema.json', fetcher)
 
     if (error || service_error) return <div>failed to load</div>
-    if (!data || !service_data) return <div>loading...</div>
+    if (!data || !service_data) return <div></div>
 
     const { email, phone, address, socials, footerText } = extractValues(data)
     const services = service_data.services.value

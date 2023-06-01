@@ -106,7 +106,7 @@ function Services() {
     const { data, error } = useSWR('/api/staticdata?filename=Service.schema.json', fetcher)
 
     if (error) return <div>failed to load</div>
-    if (!data) return <div>loading...</div>
+    if (!data) return <div></div>
 
     const services = data.services.value
 

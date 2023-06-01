@@ -18,7 +18,7 @@ export default function Testimonials({listOnly}) {
     const { data, error } = useSWR('/api/staticdata?filename=Testimonials.schema.json', fetcher)
 
     if (error) return <div>failed to load</div>
-    if (!data) return <div>loading...</div>
+    if (!data) return <div></div>
 
     const { headerText, headerSubText, testimonials, anchor } = extractValues(data);
 

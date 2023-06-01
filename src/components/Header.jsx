@@ -45,7 +45,7 @@ export default function Header({pagename}) {
     }, [company_data]);
 
     if (error || company_error) return <div>failed to load</div>
-    if (!data || ! company_data) return <div>loading...</div>
+    if (!data || ! company_data) return <div></div>
 
     return (
         <Head>

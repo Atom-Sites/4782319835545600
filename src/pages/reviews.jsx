@@ -37,9 +37,7 @@ import Testimonials from '@/components/Testimonials'
             
                 {/*Review*/}
                 <div className="mx-auto flow-root max-w-3xl lg:mx-0 lg:max-w-none">
-                    <div className="grid lg:grid-cols-3 gap-4">
-                        <Testimonials listOnly/>
-                    </div>
+                        <div className="nj-stories" data-filter-media="hide" data-media="hide" data-branding="bottom"></div>
 
                     {/* Regular CTA*/}
                     <div className="mt-10 flex items-center justify-center">

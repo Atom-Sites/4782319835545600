@@ -2,86 +2,86 @@
   "services": {
     "value": [
       {
-        "serviceBlurb": "Home & Office Cleaning Services",
-        "serviceSlug": "Experience a cleaner home and office with our professional services.",
-        "serviceText": "We provide top-notch home and office cleaning services, ensuring a spotless and comfortable environment for you and your family or employees. Our experienced team uses high-quality cleaning products and equipment to deliver exceptional results.",
+        "serviceBlurb": "Home & Office Cleaning",
+        "serviceSlug": "Expert cleaning for your home and office spaces.",
+        "serviceText": "Hutchison Maintenance provides top-notch home and office cleaning services, ensuring a clean and healthy environment for you and your loved ones. Our experienced team takes care of every detail, leaving your space spotless and refreshed.",
         "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
-        "imageAlt": "Home and office cleaning service",
+        "imageAlt": "Home and office cleaning",
         "features": [
           {
-            "name": "Residential Cleaning",
-            "description": "Our residential cleaning services cover all areas of your home, leaving it spotless and inviting for you and your family."
-          },
-          {
-            "name": "Commercial Cleaning",
-            "description": "We offer commercial cleaning services for offices, retail spaces, and other business establishments, ensuring a clean and professional environment."
-          },
-          {
             "name": "Customized Cleaning Plans",
-            "description": "We work with you to create a customized cleaning plan that suits your needs and schedule, ensuring a consistently clean space."
+            "description": "We offer tailored cleaning plans to suit your specific needs and preferences, ensuring a personalized experience."
+          },
+          {
+            "name": "Trustworthy Team",
+            "description": "Our team of professionals is reliable, efficient, and meticulous, ensuring the highest quality of service."
+          },
+          {
+            "name": "Flexible Scheduling",
+            "description": "We accommodate your schedule and provide cleaning services at a time that works best for you."
           }
         ]
       },
       {
         "serviceBlurb": "Real Estate Cleaning",
-        "serviceSlug": "Boost your property's appeal with our expert real estate cleaning services.",
-        "serviceText": "We understand the importance of a clean property when it comes to selling or renting. Our real estate cleaning services are tailored to meet the needs of real estate agents, property managers, and homeowners, ensuring a spotless and presentable space for prospective buyers or tenants.",
+        "serviceSlug": "Impress potential buyers with pristine property presentation.",
+        "serviceText": "Hutchison Maintenance offers real estate cleaning services to make properties look their best for potential buyers or tenants. Our attention to detail and commitment to excellence ensures that your property will stand out in the competitive real estate market.",
         "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
-        "imageAlt": "Real estate cleaning service",
+        "imageAlt": "Real estate cleaning",
         "features": [
           {
-            "name": "Pre-Sale Cleaning",
-            "description": "We provide thorough pre-sale cleaning services to ensure your property looks its best for potential buyers, increasing its appeal and value."
+            "name": "Pre-Listing Cleaning",
+            "description": "We provide thorough cleaning services before listing your property, ensuring it looks its best for potential buyers."
           },
           {
             "name": "Post-Construction Cleaning",
-            "description": "Our post-construction cleaning services remove dust, debris, and other construction-related messes, leaving your newly built or renovated property clean and ready for occupancy."
+            "description": "Our team takes care of post-construction cleaning, making your newly built or renovated property shine."
           },
           {
             "name": "Move-In/Move-Out Cleaning",
-            "description": "We offer move-in and move-out cleaning services for property managers and homeowners, ensuring a clean and welcoming space for new tenants or a spotless property for the next owner."
+            "description": "We offer move-in and move-out cleaning services to ensure a smooth transition for both property owners and tenants."
           }
         ]
       },
       {
-        "serviceBlurb": "Window Cleaning",
-        "serviceSlug": "Let the sunshine in with our professional window cleaning services.",
-        "serviceText": "Our window cleaning services ensure crystal-clear windows for your home or office. Our team uses specialized equipment and techniques to safely and effectively clean your windows, improving the overall appearance of your property and allowing natural light to brighten your space.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0988.jpg",
-        "imageAlt": "Window cleaning service",
+        "serviceBlurb": "Post Construction Cleaning",
+        "serviceSlug": "Showcase your construction project with a spotless finish.",
+        "serviceText": "Hutchison Maintenance provides post-construction cleaning services to make your newly built or renovated property look its absolute best. Our team of professionals ensures that every detail is taken care of, leaving your project spotless and ready for occupancy.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/cleaning-service-professional-equipment-during-450w-368560784.jpg",
+        "imageAlt": "Post construction cleaning",
         "features": [
           {
-            "name": "Residential Window Cleaning",
-            "description": "We provide residential window cleaning services that leave your home's windows sparkling clean, enhancing its curb appeal and allowing more natural light inside."
+            "name": "Debris Removal",
+            "description": "We take care of debris removal, ensuring a clean and safe environment for your property."
           },
           {
-            "name": "Commercial Window Cleaning",
-            "description": "Our commercial window cleaning services ensure a professional and polished appearance for your office or retail space, creating a welcoming environment for clients and employees."
+            "name": "Detailed Cleaning",
+            "description": "Our team provides thorough cleaning services, covering every corner and surface of your property."
           },
           {
-            "name": "Safety and Efficiency",
-            "description": "Our team prioritizes safety and efficiency in our window cleaning services, using the appropriate equipment and techniques to deliver exceptional results without compromising on safety."
+            "name": "Final Touches",
+            "description": "We add the final touches to your project, making it look polished and ready for occupancy."
           }
         ]
       },
       {
-        "serviceBlurb": "Carpet Cleaning",
-        "serviceSlug": "Revitalize your carpets with our deep carpet cleaning services.",
-        "serviceText": "Our carpet cleaning services remove dirt, stains, and allergens from your carpets, leaving them looking and smelling fresh. We use professional-grade equipment and eco-friendly cleaning solutions to effectively clean your carpets without causing damage or leaving behind harmful residues.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1004.jpg",
-        "imageAlt": "Carpet cleaning service",
+        "serviceBlurb": "Office Cleaning",
+        "serviceSlug": "Maintain a clean and productive workspace.",
+        "serviceText": "Hutchison Maintenance offers office cleaning services to keep your workplace looking its best. A clean and organized environment promotes productivity and employee satisfaction. Our team of professionals ensures that your office space is well-maintained and spotless.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+        "imageAlt": "Office cleaning",
         "features": [
           {
-            "name": "Deep Cleaning",
-            "description": "Our deep carpet cleaning services penetrate the fibers of your carpet, removing dirt, stains, and allergens for a thorough and long-lasting clean."
+            "name": "Regular Cleaning",
+            "description": "We provide regular cleaning services to maintain a clean and organized office environment."
           },
           {
-            "name": "Eco-Friendly Solutions",
-            "description": "We use eco-friendly cleaning solutions that are safe for your family, pets, and the environment, ensuring a clean and healthy space."
+            "name": "Customized Plans",
+            "description": "Our team works with you to create a customized cleaning plan that suits your office's specific needs."
           },
           {
-            "name": "Quick Drying",
-            "description": "Our carpet cleaning methods allow for quick drying times, minimizing disruption to your home or office and ensuring your carpets are ready for use in no time."
+            "name": "High-Quality Service",
+            "description": "We are committed to providing high-quality service, ensuring your office space is always looking its best."
           }
         ]
       }

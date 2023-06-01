@@ -1,6 +1,8 @@
 import extractValues from '@/utils/extractValues'
 import useSWR from 'swr'
 
+import { Email } from "react-obfuscate-email";
+
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
 function iconLookup(network) {
@@ -30,11 +32,13 @@ function iconLookup(network) {
 export default function Example() {
 
     const { data, error } = useSWR('/api/staticdata?filename=Footer.schema.json', fetcher)
+    const { data: service_data, error: service_error } = useSWR('/api/staticdata?filename=Service.schema.json', fetcher)
 
-    if (error) return <div>failed to load</div>
-    if (!data) return <div>loading...</div>
+    if (error || service_error) return <div>failed to load</div>
+    if (!data || !service_data) return <div>loading...</div>
 
-    const { email, phone, logo, address, socials, services, reviews_href, contact_href, services_href, anchor } = extractValues(data)
+    const { email, phone, address, socials, footerText } = extractValues(data)
+    const services = service_data.services.value
 
     return (
         <footer className="editable-component relative bg-neutral-800" data-json='footer'>
@@ -44,7 +48,7 @@ export default function Example() {
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
                         <h2 className="text-2xl font-extrabold tracking-tight text-white md:text-3xl lg:text-4xl">Contact us today!</h2>
-                        <p className="text-sm leading-6 text-neutral-300 max-w-xl">We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                        <p className="text-sm leading-6 text-neutral-300 max-w-xl">{footerText}</p>
                         <div className="flex space-x-6">
                             {socials.map((social) => (
                                 <div>
@@ -70,7 +74,7 @@ export default function Example() {
                                 <ul className="mt-6 space-y-4">
                                     {services.map((service) => (
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={service.href}>{service.name}</a>
+                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`/#${service.header}`}>{service.serviceBlurb}</a>
                                         </li>
                                     ))}
                                 </ul>
@@ -82,14 +86,14 @@ export default function Example() {
                                 <h3 className="font-semibold leading-6 text-white text-base">About Us</h3>
                                 <ul className="mt-6 space-y-4">
                                     <li className="">
-                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={reviews_href}>Reviews</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="/reviews">Reviews</a>
                                     </li>
                                     <li className="">
-                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={services_href}>Our Work</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="work">Our Work</a>
                                     </li>
-                                    <li className="">
+                                    {/* <li className="">
                                         <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={contact_href}>About Us</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                             {/*Footer menu Get in Touch*/}
@@ -98,10 +102,10 @@ export default function Example() {
                                     <h3 className="font-semibold leading-6 text-white text-base">Get in Touch</h3>
                                     <ul className="mt-6 space-y-4">
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#">Email Us</a>
+                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#"><Email subject="Website Inquiry" email={email}>Email Us</Email></a>
                                         </li>
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#">{phone}</a>
+                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`tel: ${phone}`}>{phone}</a>
                                         </li>
                                         <li className="">
                                             <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#">{address}</a>
@@ -140,8 +144,5 @@ export default function Example() {
         </footer>
     )
 }
-
-
-
 
 

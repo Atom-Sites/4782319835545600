@@ -1,13 +1,9 @@
 {
-  "logoImage": {
-    "value": "HUTCHISON MAINTENANCE",
+  "footerText": {
+    "value": "At Hutchison Maintenance, we take pride in providing top-quality cleaning services for homes, offices, and commercial spaces. With over 20 years of experience, our team is dedicated to ensuring your space is spotless and well-maintained. We are proud to serve the Greater Sudbury Area, Ontario.",
     "ai": true,
-    "instructions": "Text for company logo"
-  },
-  "logoImageAlt": {
-    "value": "Hutchison Maintenance Logo",
-    "ai": true,
-    "instructions": "Alt Text for the Logo"
+    "instructions": "Text for the footer. Extrapolate from the example",
+    "example": "We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
   },
   "address": {
     "value": "Greater Sudbury Area, Ontario",
@@ -51,52 +47,6 @@
         "href": "#"
       }
     ]
-  },
-  "services": {
-    "value": [
-      {
-        "name": "Home & Office Cleaning Services",
-        "href": "#services"
-      },
-      {
-        "name": "Real Estate Cleaning",
-        "href": "#services"
-      },
-      {
-        "name": "Post Construction Cleaning",
-        "href": "#services"
-      },
-      {
-        "name": "Office Cleaning",
-        "href": "#services"
-      }
-    ],
-    "ai": true,
-    "instructions": "Provide links to service by their anchor tags if they are present. Follow the example provided.",
-    "example": [
-      {
-        "name": "service 1",
-        "href": "#"
-      },
-      {
-        "name": "service 2",
-        "href": "#"
-      },
-      {
-        "name": "service 3",
-        "href": "#"
-      }
-    ]
-  },
-  "review_href": {
-    "value": "#reviews",
-    "ai": true,
-    "instructions": "Internal Link to a testimonials or reviews section."
-  },
-  "contact_href": {
-    "value": "#contact",
-    "ai": true,
-    "instructions": "Internal Link to a Contacts Section"
   },
   "anchor": {
     "value": "contact",

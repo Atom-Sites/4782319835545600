@@ -5,25 +5,25 @@
     "instructions": "The header for the USP section"
   },
   "uspDescription": {
-    "value": "Hutchison Maintenance is a trusted cleaning service provider in the Greater Sudbury Area, Ontario. With over 20 years of experience in home, office, and restoration cleaning, we have built a reputation for being reliable, trustworthy, and fair. Our team is detail-oriented and works hard to exceed our clients' expectations, ensuring that their needs are met and the price is fair.",
+    "value": "Hutchison Maintenance is a trusted cleaning service provider in the Greater Sudbury Area, Ontario. With over 20 years of experience, we offer a wide range of services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. Our team is dedicated to providing top-notch service at a fair price, ensuring customer satisfaction.",
     "ai": true,
     "instructions": "A description of the USP section, about 4 or 5 sentences"
   },
   "features": {
     "value": [
       {
-        "name": "Experienced Professionals",
-        "description": "Our team has over 20 years of experience in various cleaning fields, ensuring that your home, office, or building is cleaned to the highest standards.",
+        "name": "Experienced and Trustworthy Team",
+        "description": "Our team has over 20 years of experience in various cleaning fields, ensuring that your home, office, or building is cleaned to the highest standards. We are reliable, trustworthy, and committed to exceeding our clients' expectations.",
         "href": "#"
       },
       {
-        "name": "Trusted by Builders and Real Estate Agents",
-        "description": "We have built a strong reputation with builders and real estate agents for being reliable, trustworthy, and fair. Our clients trust us to deliver exceptional cleaning services at a fair price.",
+        "name": "Wide Range of Services",
+        "description": "We offer a variety of cleaning services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. Our services are tailored to meet the unique needs of each client, ensuring a clean and comfortable environment.",
         "href": "#"
       },
       {
-        "name": "Personalized Service",
-        "description": "As an owner-operated business, we take pride in personally cleaning or inspecting every job. We treat your property as if it were our own, ensuring the highest level of care and attention to detail.",
+        "name": "Fair Pricing and Quality Service",
+        "description": "At Hutchison Maintenance, we believe in providing quality service at a fair price. Our clients trust us to deliver exceptional results without breaking the bank, making us the go-to choice for cleaning services in the Greater Sudbury Area.",
         "href": "#"
       }
     ],

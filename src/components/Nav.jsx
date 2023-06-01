@@ -26,9 +26,10 @@ export default function Example() {
 
   const { data: nav_data, error: nav_error } = useSWR('/api/staticdata?filename=Nav.schema.json', fetcher)
   const { data: service_data, error: service_error } = useSWR('/api/staticdata?filename=Service.schema.json', fetcher)
-  
-  if (nav_error || service_error) return <div>failed to load</div>
-  if (!nav_data || !service_data) return <div>loading...</div>
+  const { data: company_data, error: company_error } = useSWR('/api/staticdata?filename=company_id.json', fetcher);
+
+  if (nav_error || service_error || company_error) return <div>failed to load</div>
+  if (!nav_data || !service_data || !company_data) return <div>loading...</div>
   
   const { logoUrl, navLinks } = extractValues(nav_data)
   const services = service_data.services.value
@@ -63,7 +64,7 @@ export default function Example() {
           </div>
 
           <div className="flex items-center ml-2">
-            <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent font-bold text-base py-3.5 px-3 rounded-2xl bg-zinc-800 hover:bg-zinc-700  transition-all ease-in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <a href={`tel: ${company_data.phone}`} className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent font-bold text-base py-3.5 px-3 rounded-2xl bg-zinc-800 hover:bg-zinc-700  transition-all ease-in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                  <path fillrule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" cliprule="evenodd" />
                 </svg>
               </a>
@@ -137,7 +138,7 @@ export default function Example() {
           <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3.5 px-4" href="#">Get Quote</a>
         </div>
         <div className="flex items-center ml-2.5">
-          <a className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-base py-4 px-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transition-all ease-in">
+          <a href={`tel: ${company_data.phone}`} className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-base py-4 px-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transition-all ease-in">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                 <path fillrule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" cliprule="evenodd" />
             </svg>

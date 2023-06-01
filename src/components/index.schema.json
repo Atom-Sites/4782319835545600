@@ -1,6 +1,6 @@
 {
   "title": {
-    "value": "Hutchison Maintenance | Home & Office Cleaning Services",
+    "value": "Hutchison Maintenance",
     "ai": true,
     "instructions": "Title of the page."
   },
@@ -16,12 +16,12 @@
     "instructions": "Company Name"
   },
   "imageUrl": {
-    "value": "[ IMAGE: Hutchison Maintenance cleaning services with a 16:9 aspect ratio ]",
+    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
     "ai": true,
     "instructions": "A href to the hero image for the page"
   },
   "description": {
-    "value": "Looking for home & office cleaning services in the Greater Sudbury Area, Ontario? Trust Hutchison Maintenance's experienced team for top-notch cleaning solutions. Book an appointment today!",
+    "value": "Looking for home & office cleaning services in the Greater Sudbury Area, Ontario? Trust Hutchison Maintenance's experienced team for top-notch customer satisfaction. Book an appointment today!",
     "ai": true,
     "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
     "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"

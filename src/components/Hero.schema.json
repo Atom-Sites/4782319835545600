@@ -1,21 +1,21 @@
 {
   "headingText": {
-    "value": "Hutchison Maintenance - Your Trusted Cleaning Partner",
+    "value": "Hutchison Maintenance - Professional Cleaning Services",
     "ai": true,
     "instructions": "The Heading Text of the page."
   },
   "descriptionText": {
-    "value": "Hutchison Maintenance is a professional cleaning service provider with over 20 years of experience in home, office, and restoration cleaning. We are dedicated to delivering top-notch cleaning services to the Greater Sudbury Area, Ontario, ensuring that our clients' needs are met with reliability, trustworthiness, and fair pricing.",
+    "value": "Hutchison Maintenance is a trusted cleaning service provider with over 20 years of experience in home, office, and restoration cleaning. We are dedicated to delivering top-notch cleaning services in the Greater Sudbury Area, Ontario, ensuring that our clients' homes, offices, and buildings are cleaned as if they were our own.\n\nOur team of reliable and detail-oriented professionals is committed to exceeding your expectations. We have built a strong reputation with builders and real estate agents for being reliable, trustworthy, and fair. Experience the difference with Hutchison Maintenance and let us take care of your cleaning needs.",
     "ai": true,
     "instructions": "The description text of the hero page. Should be a 2 paragraph text."
   },
   "heroImageUrl": {
-    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
     "ai": true,
     "instructions": "An url to a Hero image that will be displayed on the page with a 16:9 aspect ratio"
   },
   "heroImageAlt": {
-    "value": "Hutchison Maintenance team providing cleaning services",
+    "value": "Hutchison Maintenance team cleaning a home or office",
     "ai": true,
     "instructions": "Alt Text for the Hero Image. Should be a short description of the image."
   },

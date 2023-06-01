@@ -5,25 +5,25 @@
     "instructions": "The header for the USP section"
   },
   "uspDescription": {
-    "value": "Hutchison Maintenance is a trusted cleaning service provider in the Greater Sudbury Area, Ontario. With over 20 years of experience in various cleaning fields, we are committed to delivering top-notch services at fair prices. Our team of professionals is reliable, detail-oriented, and dedicated to exceeding our clients' expectations.",
+    "value": "Hutchison Maintenance has over 20 years of cleaning experience in various fields, including home, office, and restoration. We are known for our reliability, trustworthiness, and fair pricing. Our team is detail-oriented and works hard to exceed our clients' expectations, making us the preferred choice for builders and real estate agents in the Greater Sudbury Area, Ontario.",
     "ai": true,
     "instructions": "A description of the USP section, about 4 or 5 sentences"
   },
   "features": {
     "value": [
       {
+        "name": "Experienced and Trustworthy",
+        "description": "With over 20 years of experience in the cleaning industry, our team is dedicated to providing top-notch service. We are reliable, trustworthy, and committed to exceeding our clients' expectations.",
+        "href": "#"
+      },
+      {
         "name": "Wide Range of Services",
-        "description": "We offer a variety of cleaning services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. Our expertise allows us to cater to different cleaning needs and ensure customer satisfaction.",
+        "description": "We offer a variety of cleaning services, including home and office cleaning, real estate cleaning, post-construction cleaning, and more. Our diverse expertise ensures that we can cater to your specific needs.",
         "href": "#"
       },
       {
-        "name": "Experienced and Trustworthy Team",
-        "description": "Our team consists of trustworthy and experienced professionals who are dedicated to providing high-quality cleaning services. We are insured, bonded, and WSIB compliant, ensuring peace of mind for our clients.",
-        "href": "#"
-      },
-      {
-        "name": "Excellent Customer Reviews",
-        "description": "We have built a strong reputation among builders and real estate agents for our reliability, trustworthiness, and fair pricing. Our satisfied clients' reviews speak for themselves, showcasing our commitment to delivering exceptional cleaning services.",
+        "name": "Fair Pricing",
+        "description": "We believe in providing high-quality service at a fair price. Our clients trust us to deliver exceptional results without breaking the bank, making us the go-to choice for cleaning services in the Greater Sudbury Area.",
         "href": "#"
       }
     ],

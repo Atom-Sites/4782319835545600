@@ -1,11 +1,11 @@
 {
   "title": {
-    "value": "Privacy Policy | HUTCHISON MAINTENANCE",
+    "value": "Privacy Policy",
     "ai": true,
     "instructions": "Title of the page."
   },
   "pageTitle": {
-    "value": "Privacy Policy | HUTCHISON MAINTENANCE",
+    "value": "Cleaning Services | HUTCHISON MAINTENANCE",
     "ai": true,
     "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
     "example": "Window Cleaning in Boston | <Company Name>"
@@ -16,12 +16,12 @@
     "instructions": "Company Name"
   },
   "imageUrl": {
-    "value": "https://image.shutterstock.com/image-photo/businessman-hand-show-book-word-450w-210270163.jpg",
+    "value": "https://image.shutterstock.com/image-photo/gdpr-doctors-office-concept-surgeon-450w-1107570776.jpg",
     "ai": true,
     "instructions": "A href to the hero image for the page"
   },
   "description": {
-    "value": "Learn about HUTCHISON MAINTENANCE's privacy policy, how we collect and use your data, and how you can control your information. Your privacy is our priority.",
+    "value": "Learn about HUTCHISON MAINTENANCE's commitment to protecting your privacy. Our privacy policy outlines how we handle your personal information with care and security.",
     "ai": true,
     "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
     "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"

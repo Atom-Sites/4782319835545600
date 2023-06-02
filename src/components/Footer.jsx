@@ -120,7 +120,7 @@ export default function Example() {
                 {/*Copyright*/}
                 <div className="flex justify-between items-center mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
                     {/*Nicejob Atom*/}
-                    <a href="" className="filter grayscale  brightness-100 hover:brightness-50 transition-all ease-in">
+                    <a href="https://get.nicejob.com/product/sites" className="filter grayscale  brightness-100 hover:brightness-50 transition-all ease-in">
                         <img className="flex h-8 w-28" src="/images/nicejob-logo-white.svg" alt="Crafted by NiceJob" />
                     </a>
                     {/*Privacy*/}

@@ -68,7 +68,7 @@
         "author": {
           "name": "Name of the first person",
           "source": "Source of the review. For example, Google, Facebook, etc.",
-          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+          "icon": "/images/google-badge.svg"
         }
       }
     ]

@@ -1,21 +1,21 @@
 {
   "title": {
-    "value": "Experience Spotless Cleaning for Your Home or Business",
+    "value": "Experience Spotless Spaces with Hutchison Maintenance",
     "ai": true,
     "instructions": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice."
   },
   "callToAction": {
-    "value": "Rest easy knowing that our reputation among builders and real estate agents for reliability, trustworthiness, and fair pricing means you can confidently rely on us to meet your needs and deliver exceptional results.",
+    "value": "Transform your home or office with our top-notch cleaning services, tailored to your needs.",
     "ai": true,
     "instructions": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing very short paragraph to promote the services. Do not use the same keyword twice."
   },
   "image": {
-    "value": "/images/clean-property-cta.webp",
+    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
     "ai": true,
     "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
   },
   "buttonText": {
-    "value": "Get a Free Quote",
+    "value": "Book Your Cleaning Today",
     "ai": true,
     "instructions": "A short call to action that will be displayed on the button."
   },

@@ -41,17 +41,17 @@ export default function Example() {
 
         {/*This is the logo on mobile*/}
         <div className="flex lg:hidden">
-          <a href="/" className=" p-1.5">
-            <span className="sr-only"></span>
-            <img className="h-12 w-auto" src={logoUrl} alt="Put the Company Name as alt text" />
+          <a href="#" className=" p-1.5">
+            <span className="sr-only">Your Company</span>
+            <img className="h-12 w-auto" src={logoUrl} alt="Put the Company Name as alt te" />
           </a>
         </div>
         
         {/*This is the logo on desktop*/}
         <div className="hidden lg:flex ">
-          <a href="/" className=" p-1.5">
-            <span className="sr-only"></span>
-            <img className="h-20 w-auto" src={logoUrl} alt="Put the Company Name as alt text" />
+          <a href="#" className=" p-1.5">
+            <span className="sr-only">Your Company</span>
+            <img className="h-20 w-auto" src={logoUrl} alt="Put the Company Name as alt te" />
           </a>
         </div>
 

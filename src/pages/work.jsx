@@ -24,7 +24,7 @@ const testimonials = [
         <Header pagename={'work'} />
         <Nav />
         {/*Hero for secondary pages*/}
-        <div id="top" className="bg-primary-100 pt-2 lg:pt-5">
+        <div className="bg-primary-100 pt-2 lg:pt-5">
             <div className="relative px-6  lg:px-8">
                 <div className="mx-auto max-w-2xl py-12 lg:py-24">
                     <div className="text-center">

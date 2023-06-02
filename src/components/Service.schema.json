@@ -4,9 +4,9 @@
       {
         "serviceBlurb": "Real Estate Cleaning",
         "serviceSlug": "Make your property shine for potential buyers",
-        "serviceText": "Our real estate cleaning services are tailored to meet the needs of real estate agents and property managers. We understand the importance of a clean and presentable property when it comes to attracting buyers and tenants. Trust Hutchison Maintenance to deliver top-notch cleaning services that will leave your property sparkling and ready for its next occupants.",
-        "imageUrl": "/images/real-estate-cleaning.webp",
-        "imageAlt": "",
+        "serviceText": "Our real estate cleaning services are tailored to meet the needs of real estate agents and property managers. We understand the importance of a clean and presentable property when it comes to attracting potential buyers or tenants. Let Hutchison Maintenance be your secret weapon in Sudbury's competitive real estate market.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
+        "imageAlt": "Real estate cleaning service",
         "features": [
           {
             "name": "Pre-listing cleaning",
@@ -14,53 +14,74 @@
           },
           {
             "name": "Post-construction cleaning",
-            "description": "Our team is experienced in cleaning newly built or renovated properties, making them ready for sale or occupancy."
+            "description": "Our team is experienced in cleaning newly built or renovated properties, making them move-in ready for new owners or tenants."
           },
           {
             "name": "Property management cleaning",
-            "description": "We offer cleaning services for property managers, ensuring homes, apartments, and offices are in pristine condition for new tenants."
+            "description": "We offer cleaning services for property managers, ensuring homes, apartments, and offices are clean and presentable for new tenants."
           }
         ]
       },
       {
         "serviceBlurb": "Post Construction Cleaning",
-        "serviceSlug": "Showcase your craftsmanship with spotless post-construction cleaning",
-        "serviceText": "After completing a construction or renovation project, it's essential to present a clean and polished finished product. Hutchison Maintenance offers post-construction cleaning services that will make your project shine. Our team of professionals will meticulously clean every corner, ensuring your craftsmanship is showcased in the best possible light.",
-        "imageUrl": "/images/new-construction-cleaning.webp",
-        "imageAlt": "",
+        "serviceSlug": "Showcase your craftsmanship with a spotless finish",
+        "serviceText": "Hutchison Maintenance offers post-construction cleaning services to ensure your newly built or renovated property looks its absolute best. Our team of trained professionals will make your project shine, allowing potential buyers or clients to focus on your quality workmanship.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
+        "imageAlt": "Post construction cleaning service",
         "features": [
           {
             "name": "Detailed cleaning",
-            "description": "Our team pays close attention to detail, ensuring every inch of your construction or renovation project is spotless and ready for presentation."
+            "description": "Our team pays close attention to detail, ensuring every corner of your property is spotless and ready for its new occupants."
           },
           {
             "name": "Efficient service",
-            "description": "We work efficiently to complete post-construction cleaning in a timely manner, allowing you to showcase your project as soon as possible."
+            "description": "We work efficiently to complete the cleaning process in a timely manner, allowing you to showcase your project as soon as possible."
           },
           {
-            "name": "Professional results",
-            "description": "Our post-construction cleaning services deliver professional results that highlight the quality of your workmanship and leave a lasting impression on clients."
+            "name": "Customized solutions",
+            "description": "We tailor our cleaning services to meet the unique needs of your construction project, ensuring the best possible results."
           }
         ]
       },
       {
         "serviceBlurb": "Office Cleaning",
         "serviceSlug": "Boost productivity with a clean and organized workspace",
-        "serviceText": "A clean and organized office environment is essential for employee productivity and well-being. At Hutchison Maintenance, we provide professional office cleaning services that keep your workspace fresh and inviting. Our team is skilled in maintaining a clean and healthy environment, allowing your employees to focus on their work and perform at their best.",
-        "imageUrl": "/images/office-clean.webp",
-        "imageAlt": "",
+        "serviceText": "A clean and organized office environment is essential for employee productivity and satisfaction. Hutchison Maintenance provides professional office cleaning services in Sudbury, Ontario, ensuring your workplace remains fresh and inviting. Let us help you create a positive atmosphere that fosters success.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+        "imageAlt": "Office cleaning service",
         "features": [
           {
-            "name": "Customized cleaning plans",
-            "description": "We create customized cleaning plans to suit the unique needs of your office, ensuring a clean and organized workspace."
+            "name": "Regular cleaning",
+            "description": "We offer weekly office cleaning services to keep your workspace consistently clean and organized."
           },
           {
-            "name": "High-quality equipment and products",
-            "description": "Our team uses high-quality equipment and eco-friendly cleaning products to deliver exceptional results while minimizing environmental impact."
+            "name": "Customized approach",
+            "description": "We understand that every office is unique and requires a tailored cleaning approach. Our team is equipped to handle various office environments."
           },
           {
-            "name": "Reliable and professional service",
-            "description": "We pride ourselves on our reliability and professionalism, ensuring your office is consistently clean and well-maintained."
+            "name": "Reliable service",
+            "description": "Hutchison Maintenance is known for providing friendly, premium, and reliable office cleaning services in Sudbury."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Window Cleaning",
+        "serviceSlug": "Enhance your view with sparkling clean windows",
+        "serviceText": "Hutchison Maintenance offers professional window cleaning services to improve the appearance of your home or business. Our team of experts will leave your windows looking spotless, allowing you to enjoy a clear and unobstructed view. Trust us to provide exceptional results at a fair price.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1004.jpg",
+        "imageAlt": "Window cleaning service",
+        "features": [
+          {
+            "name": "Residential window cleaning",
+            "description": "We provide window cleaning services for homes, ensuring your windows are clean and streak-free."
+          },
+          {
+            "name": "Commercial window cleaning",
+            "description": "Our team is experienced in cleaning windows for businesses, enhancing the appearance of your commercial property."
+          },
+          {
+            "name": "Satisfaction guaranteed",
+            "description": "We take pride in our work and strive to exceed our clients' expectations with every window cleaning project."
           }
         ]
       }

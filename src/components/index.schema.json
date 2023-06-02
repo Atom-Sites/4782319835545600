@@ -5,7 +5,7 @@
     "instructions": "Title of the page."
   },
   "pageTitle": {
-    "value": "Home & Office Cleaning Services | Hutchison Maintenance",
+    "value": "Property Cleaning Services | Hutchison Maintenance",
     "ai": true,
     "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
     "example": "Window Cleaning in Boston | <Company Name>"
@@ -16,14 +16,13 @@
     "instructions": "Company Name"
   },
   "imageUrl": {
-    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
     "ai": true,
     "instructions": "A href to the hero image for the page"
   },
   "description": {
-    "value": "Looking for home & office cleaning services in the Greater Sudbury Area, Ontario? Trust Hutchison Maintenance's experienced team for top-notch customer satisfaction. Book an appointment today!",
+    "value": "Experience top-notch property cleaning services with Hutchison Maintenance in Greater Sudbury Area, Ontario. Our skilled team delivers exceptional results, ensuring a spotless space for your home or office. Book now!",
     "ai": true,
-    "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
-    "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"
+    "instructions": "Act as an SEO specialist. Create a meta description for our services. Optimize it for search engines and keep in mind the target audience. Make it brief, clear, and relevant. Remember to use keywords where suitable to increase traffic and engagement on the website. Limit to 160 characters. \n Examples to follow:\n Experience a cleaner property with Sudbury's top cleaning services. Our experts deliver exceptional results, ensuring a spotless space for all. Book today!\n Transform your space with Sudbury's premier cleaning services. Trust our skilled professionals for immaculate results and a fresh environment. Schedule now!\n Let's take all the hard work off your hands, providing a sparkling clean view you can be proud of. Book with Sudbury's top window cleaners today!\n Maximize your legal success with expert lawyers in Sudbury. Our personalized services and strategic approach ensure favorable outcomes. Contact us now!\n Elevate your home with Los Angeles' top painting services. Our skilled painters deliver flawless results, creating a stunning space you'll love. Schedule today!\n"
   }
 }

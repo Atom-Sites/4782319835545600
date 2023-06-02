@@ -5,7 +5,7 @@
     "instructions": "Title of the page."
   },
   "pageTitle": {
-    "value": "Cleaning Services | Hutchison Maintenance",
+    "value": "Property Cleaning Services | Hutchison Maintenance",
     "ai": true,
     "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
     "example": "Window Cleaning in Boston | <Company Name>"
@@ -16,12 +16,12 @@
     "instructions": "Company Name"
   },
   "imageUrl": {
-    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
     "ai": true,
     "instructions": "A href to the hero image for the page"
   },
   "description": {
-    "value": "Looking for top-notch cleaning services in the Greater Sudbury Area, Ontario? Trust Hutchison Maintenance's experienced team for exceptional results. Book an appointment today!",
+    "value": "Looking for property cleaning services in the Greater Sudbury Area, Ontario? Trust Hutchison Maintenance's experienced team for top-notch results. Book an appointment today!",
     "ai": true,
     "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
     "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"

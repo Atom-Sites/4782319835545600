@@ -1,27 +1,27 @@
 {
   "title": {
-    "value": "Privacy Policy",
+    "value": "Hutchison Maintenance Privacy Policy",
     "ai": true,
     "instructions": "Title of the page."
   },
   "pageTitle": {
-    "value": "Cleaning Services | HUTCHISON MAINTENANCE",
+    "value": "Property Cleaning Services | Hutchison Maintenance",
     "ai": true,
     "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
     "example": "Window Cleaning in Boston | <Company Name>"
   },
   "pageName": {
-    "value": "HUTCHISON MAINTENANCE",
+    "value": "Hutchison Maintenance",
     "ai": true,
     "instructions": "Company Name"
   },
   "imageUrl": {
-    "value": "https://image.shutterstock.com/image-photo/gdpr-doctors-office-concept-surgeon-450w-1107570776.jpg",
+    "value": "https://image.shutterstock.com/image-photo/businessman-hand-show-book-word-450w-210270163.jpg",
     "ai": true,
     "instructions": "A href to the hero image for the page"
   },
   "description": {
-    "value": "Learn about HUTCHISON MAINTENANCE's commitment to protecting your privacy. Our privacy policy outlines how we handle your personal information with care and security.",
+    "value": "Learn about Hutchison Maintenance's privacy policy, how we collect and use data, and how you can control your information. Trust our experienced team for property cleaning services in the Greater Sudbury Area, Ontario.",
     "ai": true,
     "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
     "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"

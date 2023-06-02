@@ -2,76 +2,97 @@
   "services": {
     "value": [
       {
-        "serviceBlurb": "Home & Office Cleaning Services",
-        "serviceSlug": "Expert cleaning for your home and office spaces.",
-        "serviceText": "Hutchison Maintenance offers top-notch home and office cleaning services, ensuring a spotless and comfortable environment. With over 20 years of experience, our team of professionals is dedicated to providing exceptional results that exceed your expectations.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
-        "imageAlt": "Home and office cleaning service",
-        "features": [
-          {
-            "name": "Residential Cleaning",
-            "description": "Our residential cleaning services cover every corner of your home, leaving it spotless and inviting. We take care of everything from dusting and vacuuming to deep cleaning kitchens and bathrooms."
-          },
-          {
-            "name": "Commercial Cleaning",
-            "description": "Hutchison Maintenance provides commercial cleaning services for offices, retail spaces, and other business establishments. Our team ensures a clean and organized workspace that promotes productivity and a professional atmosphere."
-          },
-          {
-            "name": "Customized Cleaning Plans",
-            "description": "We understand that every home and office has unique cleaning needs. That's why we offer customized cleaning plans tailored to your specific requirements, ensuring a thorough and satisfactory result."
-          }
-        ]
-      },
-      {
         "serviceBlurb": "Real Estate Cleaning",
-        "serviceSlug": "Impress potential buyers with pristine property presentation.",
-        "serviceText": "Hutchison Maintenance specializes in real estate cleaning services, helping real estate agents and property managers showcase properties at their best. Our meticulous cleaning ensures a spotless and inviting space that appeals to potential buyers and tenants.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1004.jpg",
-        "imageAlt": "Real estate cleaning service",
+        "serviceSlug": "Make your property shine for potential buyers",
+        "serviceText": "Our real estate cleaning services are tailored to meet the needs of real estate agents and property managers. We understand the importance of a clean and presentable property when it comes to attracting buyers and tenants. Trust Hutchison Maintenance to deliver top-notch cleaning services that will leave your property sparkling and ready for its next occupants.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
+        "imageAlt": "",
         "features": [
           {
-            "name": "Pre-Listing Cleaning",
-            "description": "We provide thorough cleaning services before listing a property, ensuring it looks its best for photos and open houses. Our attention to detail helps create a positive impression on potential buyers."
+            "name": "Pre-listing cleaning",
+            "description": "We provide thorough cleaning services before picture day or an open house, ensuring your property looks its best for potential buyers."
           },
           {
-            "name": "Post-Construction Cleaning",
-            "description": "After construction or renovation, we offer post-construction cleaning services to make your property shine. Our team removes dust, debris, and construction materials, leaving the space clean and ready for occupancy."
+            "name": "Post-construction cleaning",
+            "description": "Our team is experienced in cleaning newly built or renovated properties, making them ready for sale or occupancy."
           },
           {
-            "name": "Property Management Cleaning",
-            "description": "For property managers, we offer regular cleaning services to maintain the cleanliness and appeal of rental properties. Our team ensures a welcoming environment for new tenants and helps maintain the property's value."
+            "name": "Property management cleaning",
+            "description": "We offer cleaning services for property managers, ensuring homes, apartments, and offices are in pristine condition for new tenants."
           }
         ]
       },
       {
-        "serviceBlurb": "Window Cleaning Service",
-        "serviceSlug": "Crystal clear windows for a brighter view.",
-        "serviceText": "Hutchison Maintenance offers professional window cleaning services for residential and commercial properties. Our team of experts ensures spotless windows that enhance the appearance of your property and allow natural light to fill your space.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
-        "imageAlt": "Window cleaning service",
+        "serviceBlurb": "Window Cleaning",
+        "serviceSlug": "Experience crystal-clear views with our window cleaning",
+        "serviceText": "Hutchison Maintenance offers professional window cleaning services for residential and commercial properties. Our experienced team uses the latest techniques and equipment to ensure your windows are spotless and streak-free. Enjoy a brighter, clearer view with our expert window cleaning services.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+        "imageAlt": "",
         "features": [
           {
-            "name": "Residential Window Cleaning",
-            "description": "Our residential window cleaning services leave your home's windows sparkling clean, improving curb appeal and allowing more natural light into your living spaces."
+            "name": "Residential window cleaning",
+            "description": "We provide window cleaning services for homes, ensuring your windows are clean and clear for a beautiful view."
           },
           {
-            "name": "Commercial Window Cleaning",
-            "description": "For businesses, clean windows create a professional appearance and a welcoming environment for customers and employees. Our team provides expert window cleaning services for commercial properties of all sizes."
+            "name": "Commercial window cleaning",
+            "description": "Our team is experienced in cleaning windows for commercial properties, including offices and retail spaces, providing a professional appearance."
           },
           {
-            "name": "Safety and Efficiency",
-            "description": "Our window cleaning professionals use safe and efficient techniques to clean your windows without causing any damage to your property. We prioritize safety and customer satisfaction in every job we undertake."
+            "name": "Safety and efficiency",
+            "description": "We prioritize safety and efficiency in our window cleaning services, using the best equipment and techniques to deliver outstanding results."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Office Cleaning",
+        "serviceSlug": "Boost productivity with a clean and organized workspace",
+        "serviceText": "A clean and organized office environment is essential for employee productivity and well-being. At Hutchison Maintenance, we provide professional office cleaning services that keep your workspace fresh and inviting. Our team is skilled in maintaining a clean and healthy environment, allowing your employees to focus on their work and perform at their best.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0988.jpg",
+        "imageAlt": "",
+        "features": [
+          {
+            "name": "Customized cleaning plans",
+            "description": "We create customized cleaning plans to suit the unique needs of your office, ensuring a clean and organized workspace."
+          },
+          {
+            "name": "High-quality equipment and products",
+            "description": "Our team uses high-quality equipment and eco-friendly cleaning products to deliver exceptional results while minimizing environmental impact."
+          },
+          {
+            "name": "Reliable and professional service",
+            "description": "We pride ourselves on our reliability and professionalism, ensuring your office is consistently clean and well-maintained."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Post Construction Cleaning",
+        "serviceSlug": "Showcase your craftsmanship with spotless post-construction cleaning",
+        "serviceText": "After completing a construction or renovation project, it's essential to present a clean and polished finished product. Hutchison Maintenance offers post-construction cleaning services that will make your project shine. Our team of professionals will meticulously clean every corner, ensuring your craftsmanship is showcased in the best possible light.",
+        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
+        "imageAlt": "",
+        "features": [
+          {
+            "name": "Detailed cleaning",
+            "description": "Our team pays close attention to detail, ensuring every inch of your construction or renovation project is spotless and ready for presentation."
+          },
+          {
+            "name": "Efficient service",
+            "description": "We work efficiently to complete post-construction cleaning in a timely manner, allowing you to showcase your project as soon as possible."
+          },
+          {
+            "name": "Professional results",
+            "description": "Our post-construction cleaning services deliver professional results that highlight the quality of your workmanship and leave a lasting impression on clients."
           }
         ]
       }
     ],
     "ai": true,
-    "instructions": "Write up to four services in a way that mimics the example schema",
+    "instructions": "Write up to four services in a way that mimics the example schema. Act as a marketing strategist when deciding on content. Use persuasive and targeted language for potential customers to pique their interest.",
     "example": [
       {
-        "serviceBlurb": "A short blurb about what the service is. Should be catchy and short.",
-        "serviceSlug": "A slightly longer description of the service, but no more than 1 sentence.",
-        "serviceText": "A more thorough description of the service. 1 paragraph.",
+        "serviceBlurb": "Name of the service",
+        "serviceSlug": "Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice.\n Example to follow:\n Sparkle up your property!\n Refresh your view with our experts!\n Experience financial freedom with our accounting services!",
+        "serviceText": "Write an attention-grabbing paragraph to promote the services. Use persuasive and targeted language for potential customers. Highlight the positive effects for them. Do not use the same keyword twice.",
         "imageUrl": "A url to an image that represents the service a 1:1 aspect ratio",
         "imageAlt": "Alt text for the image. can be left blank",
         "features": [

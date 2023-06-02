@@ -64,7 +64,7 @@ export default function Testimonials({listOnly}) {
                                     </div>
 
                                     <figcaption className="mt-6 flex items-center gap-x-4">
-                                        <img classNameName="h-10 w-10 rounded-full bg-neutral-50" width={40} height={40} src={testimonial.author.icon} alt="Review received from (Source)" />
+                                        <img classNameName="h-10 w-10 rounded-full bg-neutral-50" width={24} height={24} src={testimonial.author.icon} alt="Review received from (Source)" />
                                         <div className="font-semibold text-neutral-900">{testimonial.author.name}</div>
                                     </figcaption>
                                 </figure>

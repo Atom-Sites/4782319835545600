@@ -11,7 +11,7 @@ export default function Privacy() {
         <Header pagename={'privacy'} />
         <Nav />
 
-        <div className="bg-white py-20 lg:pt-24">
+        <div id="top" className="bg-white py-20 lg:pt-24">
         <div className="mx-auto max-w-3xl  px-6  lg:px-8 text-base leading-7 text-neutral-800">
         <h1 className="text-base font-bold leading-7 text-primary-700 uppercase tracking-wide">The Small Print</h1>
         <h2 className="mt-2 text-2xl font-extrabold tracking-tight text-neutral-800 md:text-3xl lg:text-4xl">Our Privacy Policy</h2>

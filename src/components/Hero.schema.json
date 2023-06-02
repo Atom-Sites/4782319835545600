@@ -20,7 +20,7 @@
     "instructions": "Alt Text for the Hero Image. Should be a short description of the image."
   },
   "anchor": {
-    "value": "hero",
+    "value": "top",
     "ai": false
   }
 }

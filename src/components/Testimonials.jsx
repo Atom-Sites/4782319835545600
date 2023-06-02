@@ -64,7 +64,7 @@ export default function Testimonials({listOnly}) {
                                     </div>
 
                                     <figcaption className="mt-6 flex items-center gap-x-4">
-                                        <img classNameName="h-10 w-10 rounded-full bg-neutral-50" width={40} height={40} src={testimonial.author.icon} alt="Review received from (Source)" />
+                                        <img classNameName="h-10 w-10 rounded-full bg-neutral-50" width={24} height={24} src={testimonial.author.icon} alt="Review received from (Source)" />
                                         <div className="font-semibold text-neutral-900">{testimonial.author.name}</div>
                                     </figcaption>
                                 </figure>
@@ -76,7 +76,7 @@ export default function Testimonials({listOnly}) {
                     {/* Regular CTA*/}
                     <div className="mt-10 flex items-center justify-center">
                         <div className="flex items-center">
-                            <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-neutral-800 hover:bg-neutral-700 transition-all ease-in text-base py-3 px-4" href="/reviews">Read more reviews</a>
+                            <a className=" font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-neutral-800 hover:bg-neutral-700 transition-all ease-in text-base py-3 px-4" href="/reviews">Read more reviews</a>
                         </div>
                     </div>
                 </div>

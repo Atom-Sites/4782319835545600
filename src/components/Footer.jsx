@@ -120,19 +120,19 @@ export default function Example() {
                 {/*Copyright*/}
                 <div className="flex justify-between items-center mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
                     {/*Nicejob Atom*/}
-                    <a href="" className="filter grayscale invert brightness-100 hover:brightness-0 transition-all ease-in">
-                        <img className="flex h-8 w-28" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Crafted by NiceJob" />
+                    <a href="https://get.nicejob.com/product/sites" className="filter grayscale  brightness-100 hover:brightness-50 transition-all ease-in">
+                        <img className="flex h-8 w-28" src="/images/nicejob-logo-white.svg" alt="Crafted by NiceJob" />
                     </a>
                     {/*Privacy*/}
                     <div className="flex items-center">
                         <p className="text-xs leading-5 text-neutral-400 py-2">Copyright {new Date().getFullYear()}</p>
                         <p className="text-xs leading-5 text-neutral-400 py-2 px-1">|</p>
-                        <a href="" className="text-neutral-400 hover:text-neutral-300 transition-all ease-in">
+                        <a href="/privacy" className="text-neutral-400 hover:text-neutral-300 transition-all ease-in">
                             <p className="text-xs leading-5 py-2">Privacy</p>
                         </a>
                         {/*Link to top*/}
                         <div className=" flex ml-6">
-                            <a href="/#" className="text-neutral-400 hover:text-neutral-300 transition-all ease-in">
+                            <a href="#top" className="text-neutral-400 hover:text-neutral-300 transition-all ease-in">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
                                     <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm.53 5.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.72-1.72v5.69a.75.75 0 001.5 0v-5.69l1.72 1.72a.75.75 0 101.06-1.06l-3-3z" clipRule="evenodd" />
                                 </svg>

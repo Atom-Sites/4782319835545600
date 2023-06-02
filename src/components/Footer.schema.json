@@ -1,17 +1,17 @@
 {
   "footerText": {
-    "value": "At Hutchison Maintenance, we pride ourselves on providing top-notch cleaning services for homes, offices, and buildings in the Greater Sudbury Area, Ontario. Our team of experienced professionals is dedicated to exceeding our clients' expectations, ensuring a clean and comfortable environment for all.",
+    "value": "Discover the difference a professional cleaning service can make. Trust Hutchison Maintenance for top-quality results.",
     "ai": true,
     "instructions": "Text for the footer. Extrapolate from the example",
     "example": "We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
   },
   "address": {
-    "value": "Greater Sudbury Area, Ontario",
+    "value": "794 Howey Dr, Greater Sudbury ON",
     "ai": true,
     "instructions": "Company Address"
   },
   "phone": {
-    "value": "+17052301765",
+    "value": "(705) 230-1765",
     "ai": true,
     "instructions": "Company Phone Number"
   },

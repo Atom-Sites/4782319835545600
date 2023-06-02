@@ -10,7 +10,7 @@
     "instructions": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing very short paragraph to promote the services. Do not use the same keyword twice."
   },
   "image": {
-    "value": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+    "value": "/images/clean-property-cta.webp",
     "ai": true,
     "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
   },

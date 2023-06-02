@@ -5,7 +5,7 @@
         "serviceBlurb": "Real Estate Cleaning",
         "serviceSlug": "Make your property shine for potential buyers",
         "serviceText": "Our real estate cleaning services are tailored to meet the needs of real estate agents and property managers. We understand the importance of a clean and presentable property when it comes to attracting buyers and tenants. Trust Hutchison Maintenance to deliver top-notch cleaning services that will leave your property sparkling and ready for its next occupants.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0344.JPG",
+        "imageUrl": "/images/real-estate-cleaning.webp",
         "imageAlt": "",
         "features": [
           {
@@ -23,23 +23,23 @@
         ]
       },
       {
-        "serviceBlurb": "Window Cleaning",
-        "serviceSlug": "Experience crystal-clear views with our window cleaning",
-        "serviceText": "Hutchison Maintenance offers professional window cleaning services for residential and commercial properties. Our experienced team uses the latest techniques and equipment to ensure your windows are spotless and streak-free. Enjoy a brighter, clearer view with our expert window cleaning services.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_1007.jpg",
+        "serviceBlurb": "Post Construction Cleaning",
+        "serviceSlug": "Showcase your craftsmanship with spotless post-construction cleaning",
+        "serviceText": "After completing a construction or renovation project, it's essential to present a clean and polished finished product. Hutchison Maintenance offers post-construction cleaning services that will make your project shine. Our team of professionals will meticulously clean every corner, ensuring your craftsmanship is showcased in the best possible light.",
+        "imageUrl": "/images/new-construction-cleaning.webp",
         "imageAlt": "",
         "features": [
           {
-            "name": "Residential window cleaning",
-            "description": "We provide window cleaning services for homes, ensuring your windows are clean and clear for a beautiful view."
+            "name": "Detailed cleaning",
+            "description": "Our team pays close attention to detail, ensuring every inch of your construction or renovation project is spotless and ready for presentation."
           },
           {
-            "name": "Commercial window cleaning",
-            "description": "Our team is experienced in cleaning windows for commercial properties, including offices and retail spaces, providing a professional appearance."
+            "name": "Efficient service",
+            "description": "We work efficiently to complete post-construction cleaning in a timely manner, allowing you to showcase your project as soon as possible."
           },
           {
-            "name": "Safety and efficiency",
-            "description": "We prioritize safety and efficiency in our window cleaning services, using the best equipment and techniques to deliver outstanding results."
+            "name": "Professional results",
+            "description": "Our post-construction cleaning services deliver professional results that highlight the quality of your workmanship and leave a lasting impression on clients."
           }
         ]
       },
@@ -47,7 +47,7 @@
         "serviceBlurb": "Office Cleaning",
         "serviceSlug": "Boost productivity with a clean and organized workspace",
         "serviceText": "A clean and organized office environment is essential for employee productivity and well-being. At Hutchison Maintenance, we provide professional office cleaning services that keep your workspace fresh and inviting. Our team is skilled in maintaining a clean and healthy environment, allowing your employees to focus on their work and perform at their best.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0988.jpg",
+        "imageUrl": "/images/office-clean.webp",
         "imageAlt": "",
         "features": [
           {
@@ -68,7 +68,7 @@
         "serviceBlurb": "Post Construction Cleaning",
         "serviceSlug": "Showcase your craftsmanship with spotless post-construction cleaning",
         "serviceText": "After completing a construction or renovation project, it's essential to present a clean and polished finished product. Hutchison Maintenance offers post-construction cleaning services that will make your project shine. Our team of professionals will meticulously clean every corner, ensuring your craftsmanship is showcased in the best possible light.",
-        "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/138/img_0962.jpg",
+        "imageUrl": "/images/new-construction-cleaning.webp",
         "imageAlt": "",
         "features": [
           {

@@ -63,27 +63,6 @@
             "description": "We pride ourselves on our reliability and professionalism, ensuring your office is consistently clean and well-maintained."
           }
         ]
-      },
-      {
-        "serviceBlurb": "Post Construction Cleaning",
-        "serviceSlug": "Showcase your craftsmanship with spotless post-construction cleaning",
-        "serviceText": "After completing a construction or renovation project, it's essential to present a clean and polished finished product. Hutchison Maintenance offers post-construction cleaning services that will make your project shine. Our team of professionals will meticulously clean every corner, ensuring your craftsmanship is showcased in the best possible light.",
-        "imageUrl": "/images/new-construction-cleaning.webp",
-        "imageAlt": "",
-        "features": [
-          {
-            "name": "Detailed cleaning",
-            "description": "Our team pays close attention to detail, ensuring every inch of your construction or renovation project is spotless and ready for presentation."
-          },
-          {
-            "name": "Efficient service",
-            "description": "We work efficiently to complete post-construction cleaning in a timely manner, allowing you to showcase your project as soon as possible."
-          },
-          {
-            "name": "Professional results",
-            "description": "Our post-construction cleaning services deliver professional results that highlight the quality of your workmanship and leave a lasting impression on clients."
-          }
-        ]
       }
     ],
     "ai": true,

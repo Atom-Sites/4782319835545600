@@ -54,8 +54,8 @@ export default function Header({pagename}) {
             <meta property="og:title" content={pageName} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={imageUrl} />
-            <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.png" />
-            <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/iphone-icon.png" />
+            <link rel="icon" type="image/png" href="/favicon.png" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/iphone-icon.png" />
         </Head>
     )
 }

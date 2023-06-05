@@ -1,8 +1,8 @@
 {
   "headerText": {
-    "value": "Testimonials",
+    "value": "Reviews",
     "ai": true,
-    "instructions": "Either Testimonials or Reviews"
+    "instructions": "Reviews"
   },
   "headerSubText": {
     "value": "Read what our satisfied customers have to say about our exceptional cleaning services.",
@@ -12,11 +12,11 @@
   "testimonials": {
     "value": [
       {
-        "body": "Excellent service and does an awesome job....very lucky to have them for our cleaning.",
+        "body": "We hired Hutchinson Maintance to clean the house we just bought. We are very pleased with their work and we highly recommend them! Thank you for a great work!",
         "author": {
-          "name": "Lucien",
-          "source": "NiceJob",
-          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+          "name": "Kathie Cummings",
+          "source": "Google",
+          "icon": "/images/google-badge.svg"
         }
       },
       {
@@ -48,20 +48,20 @@
         "author": {
           "name": "Gaby Vandergiessen",
           "source": "Facebook",
-          "icon": "/images/google-badge.svg"
+          "icon": "/images/facebook_f_logo.svg"
         }
       },
       {
-        "body": "Tyler did my windows and they are gorgeous!  Great work! Great price!",
+        "body": "I thoroughly would recommend their services for punctual professional and thorough cleaning services for our multiple commercial and residential properties in Sudbury.",
         "author": {
-          "name": "Gaby Vandergiessen",
-          "source": "Facebook",
+          "name": "Sandra Mews",
+          "source": "Google",
           "icon": "/images/google-badge.svg"
         }
       }
     ],
     "ai": true,
-    "instructions": "Use available information to create 2-6 testimonials in the testimonials array. Use the provided icon for all authors",
+    "instructions": "Use available information to create 3 or 6 testimonials in the testimonials array. Use the provided icon for all authors",
     "example": [
       {
         "body": "The body for the first testimonial goes here. It should be a short paragraph about what the person is saying about the company.",

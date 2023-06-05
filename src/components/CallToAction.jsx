@@ -37,7 +37,7 @@ export default function CallToAction() {
                         {/* Big CTA*/}
                         <div className="mt-10 flex items-center justify-left">
                             <div className="flex items-center">
-                                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-xl py-5 px-5" href="#">Get my free quote!</a>
+                                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-xl py-5 px-5" href="#">Clean my space!</a>
                             </div>
                         </div>
                     </div>

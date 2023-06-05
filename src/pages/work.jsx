@@ -48,6 +48,7 @@ const testimonials = [
                     <div className="mt-10 flex items-center justify-center">
                         <div className="flex items-center">
                             <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">Get started today!</a>
+                            <a className="nj-recommendation font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-neutral-700 hover:bg-neutral-600 transition-all ease-in text-base py-3 px-4 ml-2" href="#">Recommend us</a>
                         </div>
                     </div>
                 </div>

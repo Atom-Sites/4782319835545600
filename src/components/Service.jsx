@@ -22,39 +22,38 @@ function ServiceLeft(props) {
     const { serviceBlurb, serviceSlug, serviceText, imageUrl, imageAlt, features } = props;
 
     return (
-        <div id={serviceSlug} className="overflow-hidden py-24 bg-primary-50 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-                    <div className="lg:ml-auto lg:pl-4 lg:pt-4">
-
-                        <div className="lg:max-w-lg">
-                            {/*Taglines*/}
-                            <h2 className="text-base font-bold leading-7 text-primary-700 uppercase tracking-wide">{serviceBlurb}</h2>
-                            <h2 className="mt-2 text-2xl font-extrabold tracking-tight text-neutral-800 md:text-3xl lg:text-4xl">{serviceSlug}</h2>
-                            {/*Service Content*/}
-                            <p className="text-lg text-neutral-800 mt-6 leading-7">{serviceText}</p>
-                            <dl className="mt-10 max-w-xl space-y-5 text-base leading-7 text-neutral-800 lg:max-w-none">
-                                {features.map((feature) => (
-                                    <Feature name={feature.name} description={feature.description} />
-                                ))}
-                            </dl>
-                            {/* Regular CTA*/}
-                            <div className="mt-10 flex items-center justify-left">
-                                <div className="flex items-center">
-                                    <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">Get my free quote!</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="flex items-start justify-end lg:order-first">
-                        <img className="object-cover min-h-full max-h-[300px] w-[64rem] max-w-none rounded-xl shadow-xl ring-gray-400/10 sm:w-[57rem]" src={imageUrl} Alt={imageAlt} />
-                    </div>
-
-                </div>
+<div id={serviceSlug} className="overflow-hidden py-24 bg-primary-50 sm:py-32">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      {/* Image */}
+      <div className="flex items-start justify-end lg:order-first">
+        <img className="object-cover min-h-full max-h-[300px] w-[64rem] max-w-none rounded-xl shadow-xl ring-gray-400/10 sm:w-[57rem]" src={imageUrl} alt={imageAlt} />
+      </div>
+      <div className="lg:ml-auto lg:pl-4">
+        <div className="lg:max-w-lg">
+          {/* Taglines */}
+          <h2 className="text-base font-bold leading-7 text-primary-700 uppercase tracking-wide">{serviceBlurb}</h2>
+          <h2 className="mt-2 text-2xl font-extrabold tracking-tight text-neutral-800 md:text-3xl lg:text-4xl ">{serviceSlug}</h2>
+          {/* Service Content */}
+          <p className="text-lg text-neutral-800 mt-6 leading-7">{serviceText}</p>
+          <dl className="mt-10 max-w-xl space-y-5 text-base leading-7 text-neutral-800 lg:max-w-none">
+            {features.map((feature) => (
+              <Feature name={feature.name} description={feature.description} />
+            ))}
+          </dl>
+          {/* Regular CTA */}
+          <div className="mt-10 flex items-center justify-left">
+            <div className="flex items-center">
+              <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">
+                Get my free estimate!
+              </a>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
     )
 }
 
@@ -63,42 +62,54 @@ function ServiceRight(props) {
     const { serviceBlurb, serviceSlug, serviceText, imageUrl, imageAlt, features } = props;
 
     return (
-        <div id={serviceSlug} className="overflow-hidden py-24 sm:py-32 bg-primary-100">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
-                    <div className="lg:pr-4 lg:pt-4">
-                        <div className="lg:max-w-lg">
-                            {/*Taglines*/}
-                            <h2 className="text-base font-bold leading-7 text-primary-700 uppercase tracking-wide">{serviceBlurb}</h2>
-                            <h2 className="mt-2 text-2xl font-extrabold tracking-tight text-neutral-800 md:text-3xl lg:text-4xl">{serviceSlug}</h2>
-                            {/*Service Content*/}
-                            <p className="text-lg text-neutral-800 mt-6 leading-7">{serviceText}</p>
-                            <dl className="mt-10 max-w-xl space-y-5 text-base leading-7 text-neutral-800 lg:max-w-none">
-                                {features.map((feature) => (
-                                    <Feature name={feature.name} description={feature.description} />
-                                ))}
-                            </dl>
-                        </div>
-                        <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-neutral-800 lg:max-w-none">
-                            {features.map((feature) => {
-                                <Feature name={feature.name} description={feature.description} />
-                            })}
-                        </dl>
-
-                        {/* Regular CTA*/}
-                        <div className="mt-10 flex items-center justify-left">
-                            <div className="flex items-center">
-                                <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">Get my free quote!</a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <img className="object-cover min-h-full max-h-[300px] w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0" src={imageUrl} Alt={imageAlt} />
-                </div>
-
+        <div id={serviceSlug} className="overflow-hidden py-24 bg-primary-100 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            {/* Image */}
+            <div className="flex items-start justify-start lg:order-last">
+              <img className="object-cover min-h-full max-h-[300px] w-[64rem] max-w-none rounded-xl shadow-xl ring-gray-400/10 sm:w-[57rem]" src={imageUrl} alt={imageAlt} />
             </div>
-        </div>)
+            <div className="lg:mr-auto lg:pr-4">
+              <div className="lg:max-w-lg">
+                {/* Taglines */}
+                <h2 className="text-base font-bold leading-7 text-primary-700 uppercase tracking-wide">{serviceBlurb}</h2>
+                <h2 className="mt-2 text-2xl font-extrabold tracking-tight text-neutral-800 md:text-3xl lg:text-4xl ">{serviceSlug}</h2>
+                {/* Service Content */}
+                <p className="text-lg text-neutral-800 mt-6 leading-7">{serviceText}</p>
+                <dl className="mt-10 max-w-xl space-y-5 text-base leading-7 text-neutral-800 lg:max-w-none">
+                  {features.map((feature) => (
+                    <Feature name={feature.name} description={feature.description} />
+                  ))}
+                </dl>
+                {/* Regular CTA */}
+                <div className="mt-10 flex items-center justify-left">
+                  <div className="flex items-center">
+                    <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">
+                      Get my free estimate!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+ 
+      
+      
+      
+      
+      
+      
+      
+    )
 }
 
 const fetcher = (Url) => fetch(Url).then((res) => res.json())

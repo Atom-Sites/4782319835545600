@@ -1,6 +1,6 @@
 {
   "title": {
-    "value": "Experience Spotless Cleaning for Your Home or Business",
+    "value": "Experience spotless cleaning trusted by professionals!",
     "ai": true,
     "instructions": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice."
   },
@@ -15,7 +15,7 @@
     "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
   },
   "buttonText": {
-    "value": "Get a Free Quote",
+    "value": "Clean my space!",
     "ai": true,
     "instructions": "A short call to action that will be displayed on the button."
   },

@@ -22,7 +22,7 @@ import Testimonials from '@/components/Testimonials'
                 <div className="mx-auto max-w-2xl py-12 lg:py-24">
                     <div className="text-center">
                         <h1 className="text-3xl font-extrabold tracking-tight text-neutral-800 md:text-4xl lg:text-6xl">Our Customer Stories</h1>
-                        <p className="mt-6 text-lg leading-8 text-neutral-800">Your community is talking about us. Experience why residents in and around Sudbury are raving about us. We provide top-notch cleaning services that will exceed your expectations.</p>
+                        <p className="mt-6 text-lg leading-8 text-neutral-800">Experience why your community in and around Sudbury is raving about us. We provide top-notch cleaning services that will exceed your expectations.</p>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,9 @@ import Testimonials from '@/components/Testimonials'
                     <div className="mt-10 flex items-center justify-center">
                         <div className="flex items-center">
                             <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">Get started today!</a>
-                        </div>
+                            <a className="nj-recommendation font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-neutral-700 hover:bg-neutral-600 transition-all ease-in text-base py-3 px-4 ml-2" href="#">Recommend us</a>
+        
+                       </div>
                     </div>
                 </div>
             </div>

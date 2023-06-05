@@ -24,19 +24,16 @@ export default function Hero() {
                     {/* Big CTA*/}
                     <div className="mt-10 flex items-center justify-left">
                         <div className="flex items-center">
-                            <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-xl py-5 px-5" href="#">Get my free quote!</a>
+                            <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-xl py-5 px-5" href="#">Get my free estimate!</a>
                         </div>
                     </div>
                 </div>
 
                 {/*Hero image*/}
-                <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
-                    <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-                        <div className="-m-2 rounded-xl p-2 lg:-m-4 lg:rounded-2xl lg:p-4 h-[600px]">
-                            <div className="w-[40rem] rounded-md shadow-2xl h-full bg-auto bg-no-repeat bg-cover" style={{ backgroundImage: `url("${heroImageUrl}")` }}></div>
-                        </div>
-                    </div>
-                </div>
+
+                <div className="flex items-start justify-end">
+        <img className="object-cover min-h-full max-h-[300px] w-[64rem] max-w-none rounded-xl shadow-xl ring-gray-400/10 sm:w-[57rem] lg:ml-20 mt-10" src={heroImageUrl} alt="" />
+      </div>
             </div>
         </div>
     )

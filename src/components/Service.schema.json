@@ -3,7 +3,7 @@
     "value": [
       {
         "serviceBlurb": "Real Estate Cleaning",
-        "serviceSlug": "Make your property shine for potential buyers",
+        "serviceSlug": "Make your property shine for potential buyers.",
         "serviceText": "Our real estate cleaning services are tailored to meet the needs of real estate agents and property managers. We understand the importance of a clean and presentable property when it comes to attracting buyers and tenants. Trust Hutchison Maintenance to deliver top-notch cleaning services that will leave your property sparkling and ready for its next occupants.",
         "imageUrl": "/images/real-estate-cleaning.webp",
         "imageAlt": "",
@@ -24,7 +24,7 @@
       },
       {
         "serviceBlurb": "Post Construction Cleaning",
-        "serviceSlug": "Showcase your craftsmanship with spotless post-construction cleaning",
+        "serviceSlug": "Showcase your craftsmanship with spotless cleaning.",
         "serviceText": "After completing a construction or renovation project, it's essential to present a clean and polished finished product. Hutchison Maintenance offers post-construction cleaning services that will make your project shine. Our team of professionals will meticulously clean every corner, ensuring your craftsmanship is showcased in the best possible light.",
         "imageUrl": "/images/new-construction-cleaning.webp",
         "imageAlt": "",
@@ -45,7 +45,7 @@
       },
       {
         "serviceBlurb": "Office Cleaning",
-        "serviceSlug": "Boost productivity with a clean and organized workspace",
+        "serviceSlug": "Boost productivity with a clean and organized workspace.",
         "serviceText": "A clean and organized office environment is essential for employee productivity and well-being. At Hutchison Maintenance, we provide professional office cleaning services that keep your workspace fresh and inviting. Our team is skilled in maintaining a clean and healthy environment, allowing your employees to focus on their work and perform at their best.",
         "imageUrl": "/images/office-clean.webp",
         "imageAlt": "",

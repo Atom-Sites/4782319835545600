@@ -89,7 +89,7 @@ export default function Example() {
                                         <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="/reviews">Reviews</a>
                                     </li>
                                     <li className="">
-                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="work">Our Work</a>
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="/work">Our Work</a>
                                     </li>
                                     {/* <li className="">
                                         <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={contact_href}>About Us</a>

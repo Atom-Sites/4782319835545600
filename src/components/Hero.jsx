@@ -14,10 +14,10 @@ export default function Hero() {
 
     return (
         <div id={anchor} className="editable-component relative isolate overflow-hidden bg-primary-400" data-json='hero'>
-            <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+            <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 sm:px-20 lg:flex lg:px-8 lg:pb-40 lg:pt-20">
 
                 {/*This is the header and CTA*/}
-                <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
+                <div className="mx-auto max-w-2xl sm:mx-0 lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
                     <h1 className="mt-10 font-bold tracking-tight text-neutral-800 text-4xl  md:text-5xl lg:text-6xl">{headingText}</h1>
                     <p className="mt-6 text-lg leading-8 text-gray-900">{descriptionText}</p>
 
@@ -32,8 +32,9 @@ export default function Hero() {
                 {/*Hero image*/}
 
                 <div className="flex items-start justify-end">
-        <img className="object-cover min-h-full max-h-[300px] w-[64rem] max-w-none rounded-xl shadow-xl ring-gray-400/10 sm:w-[57rem] lg:ml-20 mt-10" src={heroImageUrl} alt="" />
-      </div>
+                    <img className="object-cover min-h-full max-h-[500px] w-full max-w-none rounded-xl shadow-xl ring-gray-400/10 lg:w-[48rem] lg:ml-20 mt-10" src={heroImageUrl} alt="" />
+                </div>
+                
             </div>
         </div>
     )

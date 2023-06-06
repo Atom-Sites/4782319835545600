@@ -45,7 +45,7 @@ function ServiceLeft(props) {
           <div className="mt-10 flex items-center justify-left">
             <div className="flex items-center">
               <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">
-                Get my free estimate!
+                Get my free !
               </a>
             </div>
           </div>

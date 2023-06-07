@@ -75,7 +75,7 @@ export default function Example() {
                                 <ul className="mt-6 space-y-4">
                                     {services.map((service) => (
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`/#${service.serviceSlug}`}>{service.serviceBlurb}</a>
+                                            <Link className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`/#${service.serviceSlug}`}>{service.serviceBlurb}</Link>
                                         </li>
                                     ))}
                                 </ul>

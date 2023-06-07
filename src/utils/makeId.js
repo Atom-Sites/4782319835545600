@@ -1,5 +1,5 @@
 export default function makeId(title) {
-    return title.replace(" ", "-").toLowerCase();
+    return title.replaceAll(" ", "-").toLowerCase();
 
 };
 

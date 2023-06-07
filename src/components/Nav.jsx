@@ -13,6 +13,7 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/
 import useSWR from 'swr'
 import extractValues from '@/utils/extractValues'
 import Link from 'next/link'
+import makeId from '@/utils/makeId'
 
 
 
@@ -115,10 +116,10 @@ export default function Example() {
                             </div> */}
                                                 {/*Dropdown Items*/}
                                                 <div className="flex-auto">
-                                                    <a href={`/#${item.serviceSlug}`} className="block font-semibold text-gray-900 ">
+                                                    <Link href={`/#${makeId(item.serviceBlurb)}`} className="block font-semibold text-gray-900 ">
                                                         {item.serviceBlurb}
                                                         <span className="absolute inset-0" />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         ))}
@@ -188,11 +189,11 @@ export default function Example() {
                                             </Disclosure.Button>
                                             <Disclosure.Panel className="mt-2 space-y-2">
                                                 {services.map((item) => (
-                                                    <Link href={`/#${item.serviceSlug}`}>
+                                                    <Link href={`/#${makeId(item.serviceBlurb)}`}>
                                                         <Disclosure.Button
                                                             key={item.serviceBlurb}
                                                             as="a"
-                                                            href={`/#${item.serviceSlug}`}
+                                                            href={`/#${makeId(item.serviceBlurb)}`}
                                                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                                         >
                                                             {item.serviceBlurb}

@@ -10,12 +10,17 @@ import Header from '@/components/Header'
 import USP from '@/components/USP'
 import Testimonials from '../components/Testimonials'
 
+import ReviewHero from '../components/ReviewHero'
+import HeroFullBG from '../components/HeroFullBG'
+
 export default function Home() {
     return (
         <>
             <Header pagename={'index'} />
             <Nav />
+            <HeroFullBG />
             <Hero />
+            <ReviewHero />
             <USP />
             <Services />
             <Testimonials />

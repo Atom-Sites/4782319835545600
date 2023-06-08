@@ -3,6 +3,7 @@ import useSWR from 'swr'
 
 import { Email } from "react-obfuscate-email";
 import Link from 'next/link';
+import makeId from '@/utils/makeId'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
@@ -75,7 +76,7 @@ export default function Example() {
                                 <ul className="mt-6 space-y-4">
                                     {services.map((service) => (
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`/#${service.serviceSlug}`}>{service.serviceBlurb}</a>
+                                            <Link className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`/#${makeId(service.serviceBlurb)}`}>{service.serviceBlurb}</Link>
                                         </li>
                                     ))}
                                 </ul>

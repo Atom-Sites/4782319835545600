@@ -18,9 +18,7 @@ export default function Home() {
         <>
             <Header pagename={'index'} />
             <Nav />
-            <HeroFullBG />
             <Hero />
-            <ReviewHero />
             <USP />
             <Services />
             <Testimonials />

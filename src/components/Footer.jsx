@@ -110,7 +110,7 @@ export default function Example() {
                                             <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`tel: ${phone}`}>{phone}</a>
                                         </li>
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#">{address}</a>
+                                            <p className="text-sm leading-6 text-neutral-300 transition-all ease-in" >{address}</p>
                                         </li>
                                     </ul>
                                 </div>

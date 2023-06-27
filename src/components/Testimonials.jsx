@@ -60,7 +60,7 @@ export default function Testimonials({listOnly}) {
                             <figure className="h-full relative flex flex-col rounded-2xl bg-neutral-50 p-8 text-sm leading-6">
                                 <div className="flex-grow">
 
-                                <div className="lg:max-h-20 lg:hover:max-h-96 transition-all ease-in-out duration-300">
+                                <div className="lg:max-h-24 lg:hover:max-h-96 transition-all ease-in-out duration-300">
                                     <blockquote className="text-neutral-800">
                                     <span className="absolute top-3 left-4 mt-1 ml-1 text-primary-700 text-opacity-25">
                                         <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 448 512">
@@ -69,7 +69,7 @@ export default function Testimonials({listOnly}) {
                                     </span>
 
                                    
-                                        <blockquote className="text-neutral-800">
+                                        <blockquote className="text-neutral-800 text-base">
                                             <p className="mt-7 lg:line-clamp-3 lg:hover:line-clamp-none">"{testimonial.body}"</p>
                                         </blockquote>
                                     

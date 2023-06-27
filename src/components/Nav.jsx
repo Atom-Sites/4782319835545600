@@ -1,15 +1,7 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
-import {
-    ArrowPathIcon,
-    Bars3Icon,
-    ChartPieIcon,
-    CursorArrowRaysIcon,
-    FingerPrintIcon,
-    SquaresPlusIcon,
-    XMarkIcon,
-} from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { Bars3Icon, XMarkIcon,} from '@heroicons/react/24/outline'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import useSWR from 'swr'
 import extractValues from '@/utils/extractValues'
 import Link from 'next/link'
@@ -26,6 +18,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json())
 
 export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [desktopMenuOpen, setDesktopMenuOpen] = useState(false);
 
 
     const { data: nav_data, error: nav_error } = useSWR('/api/staticdata?filename=Nav.schema.json', fetcher)
@@ -47,7 +40,7 @@ export default function Example() {
                 <div className="flex lg:hidden">
                     <a href="/" className=" p-1.5">
                         <span className="sr-only">Your Company</span>
-                        <img className="h-12 w-auto" src={logoUrl} alt="Put the Company Name as alt text" />
+                        <img className="h-12 w-auto" src={logoUrl} alt="Hutchinson Maintenance" />
                     </a>
                 </div>
 
@@ -55,7 +48,7 @@ export default function Example() {
                 <div className="hidden lg:flex ">
                     <a href="/" className=" p-1.5">
                         <span className="sr-only">Your Company</span>
-                        <img className="h-20 w-auto" src={logoUrl} alt="Put the Company Name as alt text" />
+                        <img className="h-20 w-auto" src={logoUrl} alt="Hutchinson Maintenance" />
                     </a>
                 </div>
 
@@ -116,8 +109,8 @@ export default function Example() {
                             </div> */}
                                                 {/*Dropdown Items*/}
                                                 <div className="flex-auto">
-                                                    <Link href={`/#${makeId(item.serviceBlurb)}`} className="block font-semibold text-gray-900 ">
-                                                        {item.serviceBlurb}
+                                                    <Link href={`/#${makeId(item.serviceBlurb)}`} className="block font-semibold text-gray-900 " onClick={() => setDesktopMenuOpen(false)}>
+                                                        {item.serviceBlurb} 
                                                         <span className="absolute inset-0" />
                                                     </Link>
                                                 </div>
@@ -136,6 +129,14 @@ export default function Example() {
                         </a>
 
                     </Popover.Group>
+
+                    {desktopMenuOpen && (
+            <div
+              className="fixed inset-0 z-20 bg-black bg-opacity-50"
+              onClick={() => setDesktopMenuOpen(false)}
+            />
+          )}
+
                     {/*CTAs on a larger screen*/}
                     {/* Regular CTA*/}
                     <div className="flex items-center">
@@ -189,7 +190,7 @@ export default function Example() {
                                             </Disclosure.Button>
                                             <Disclosure.Panel className="mt-2 space-y-2">
                                                 {services.map((item) => (
-                                                    <Link href={`/#${makeId(item.serviceBlurb)}`}>
+                                                    <Link href={`/#${makeId(item.serviceBlurb)}`} onClick={() => setMobileMenuOpen(false)}>
                                                         <Disclosure.Button
                                                             key={item.serviceBlurb}
                                                             as="a"

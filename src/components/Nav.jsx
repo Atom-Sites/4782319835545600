@@ -68,7 +68,7 @@ export default function Example() {
                     </div>
                     <button
                         type="button"
-                        className=" inline-flex p-5 items-center justify-center rounded-md p-2.5 text-gray-700"
+                        className=" inline-flex p-5 items-center justify-center rounded-md text-gray-700"
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
@@ -108,11 +108,13 @@ export default function Example() {
                                 <item.icon className="h-6 w-6 text-gray-600 group-hover:text-primary-600" aria-hidden="true" />
                             </div> */}
                                                 {/*Dropdown Items*/}
+
+
                                                 <div className="flex-auto">
-                                                    <Link href={`/#${makeId(item.serviceBlurb)}`} className="block font-semibold text-gray-900 " onClick={() => setDesktopMenuOpen(false)}>
+                                                    <Popover.Button as={Link} href={`/#${makeId(item.serviceBlurb)}`} className="block font-semibold text-gray-900 ">
                                                         {item.serviceBlurb} 
                                                         <span className="absolute inset-0" />
-                                                    </Link>
+                                                    </Popover.Button>
                                                 </div>
                                             </div>
                                         ))}
@@ -130,12 +132,7 @@ export default function Example() {
 
                     </Popover.Group>
 
-                    {desktopMenuOpen && (
-            <div
-              className="fixed inset-0 z-20 bg-black bg-opacity-50"
-              onClick={() => setDesktopMenuOpen(false)}
-            />
-          )}
+
 
                     {/*CTAs on a larger screen*/}
                     {/* Regular CTA*/}
